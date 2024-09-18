@@ -22,5 +22,6 @@
   
   <ItemGroup>
     <Folder Include="Business\Validation\" />
+    <Folder Include="Views\Shared\DisplayTemplates\" />
   </ItemGroup>
 </Project>
