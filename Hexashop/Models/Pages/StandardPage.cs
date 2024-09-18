@@ -8,11 +8,6 @@ namespace Hexashop.Models.Pages
         Description = "Standard content page")]
     public class StandardPage : SitePageData
     {
-        [CultureSpecific]
-        [Display(
-            GroupName = Globals.GroupNames.SEO,
-            Order = 10)]
-        public virtual string Heading { get; set; }
-
+     
     }
 }
