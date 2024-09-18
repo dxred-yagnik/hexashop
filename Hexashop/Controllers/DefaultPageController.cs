@@ -1,6 +1,7 @@
 ﻿using EPiServer.Framework.DataAnnotations;
 using EPiServer.Web.Mvc;
 using Hexashop.Models.Pages;
+using Hexashop.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Hexashop.Controllers
@@ -10,7 +11,7 @@ namespace Hexashop.Controllers
     {
         public ViewResult Index(SitePageData currentPage)
         {
-            var model = currentPage;// CreateModel(currentPage);
+            var model = CreateModel(currentPage);
             return View($"~/Views/{currentPage.GetOriginalType().Name}/Index.cshtml", model);
         }
 
@@ -20,10 +21,10 @@ namespace Hexashop.Controllers
         /// <remarks>
         /// Used to create models of a specific type without the calling method having to know that type.
         /// </remarks>
-        //private static IPageViewModel<SitePageData> CreateModel(SitePageData page)
-        //{
-        //    var type = typeof(PageViewModel<>).MakeGenericType(page.GetOriginalType());
-        //    return Activator.CreateInstance(type, page) as IPageViewModel<SitePageData>;
-        //}
+        private static IPageViewModel<SitePageData> CreateModel(SitePageData page)
+        {
+            var type = typeof(PageViewModel<>).MakeGenericType(page.GetOriginalType());
+            return Activator.CreateInstance(type, page) as IPageViewModel<SitePageData>;
+        }
     }
 }

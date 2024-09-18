@@ -11,6 +11,5 @@ namespace Hexashop.Models.Pages
             GroupName = Globals.GroupNames.SEO,
             Order = 10)]
         public virtual string MetaTitle { get; set; }
-
     }
 }

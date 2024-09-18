@@ -1,7 +1,7 @@
-﻿@using Hexashop.Models.Pages
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-@model SitePageData
+@model IPageViewModel<SitePageData>
+
 <head>
 
     <meta charset="utf-8">
@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <title>@Model.MetaTitle</title>
+    <title>@Model.CurrentPage.MetaTitle</title>
 
 
     <!-- Additional CSS Files -->
