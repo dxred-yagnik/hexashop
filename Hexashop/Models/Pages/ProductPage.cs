@@ -23,12 +23,5 @@ namespace Hexashop.Models.Pages
         [UIHint(UIHint.Image)]
         public virtual Url Image { get; set; }
 
-        public override void SetDefaultValues(ContentType contentType)
-        {
-            this.ProductName = "product 123";
-
-            base.SetDefaultValues(contentType);
-        }
-
     }
 }

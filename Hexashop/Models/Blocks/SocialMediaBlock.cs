@@ -11,6 +11,5 @@ namespace Hexashop.Models.Blocks
             GroupName = SystemTabNames.Content,
             Order = 10)]
         public virtual string Title { get; set; }
-
     }
 }

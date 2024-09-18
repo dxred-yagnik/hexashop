@@ -12,12 +12,12 @@ namespace Hexashop.Models.Pages
             Order = 10)]
         public virtual string MetaTitle { get; set; }
 
-
         [CultureSpecific]
         [Display(
            Name = "Sections",
+           GroupName = SystemTabNames.Content,
            Description = "Add website sections",
-           Order = 10)]
+           Order = 999)]
         public virtual ContentArea Sections { get; set; }
     }
 }

@@ -12,18 +12,18 @@ namespace Hexashop.Models.Blocks
             Name = "Name",
             Description = "Name field's description",
             GroupName = SystemTabNames.Content,
-            Order = 1)]
+            Order = 10)]
         [AllowedTypes(typeof(ImageFile))]
         public virtual ContentReference BannerImage { get; set; }
 
         [Display(
             GroupName = SystemTabNames.Content,
-            Order = 1)]
+            Order = 20)]
         public virtual string Heading { get; set; }
 
         [Display(
             GroupName = SystemTabNames.Content,
-            Order = 1)]
+            Order = 30)]
         public virtual XhtmlString Descrition { get; set; }
 
     }

@@ -10,7 +10,7 @@ namespace Hexashop.Models.Blocks
         [CultureSpecific]
         [Display(
             GroupName = SystemTabNames.Content,
-            Order = 1)]
+            Order = 10)]
         public virtual string Heading { get; set; }
 
         [CultureSpecific]
@@ -18,7 +18,7 @@ namespace Hexashop.Models.Blocks
             Name = "Name",
             Description = "Name field's description",
             GroupName = SystemTabNames.Content,
-            Order = 1)]
+            Order = 20)]
         [AllowedTypes(typeof(ProductPage))]
         public virtual ContentArea Products { get; set; }
 
