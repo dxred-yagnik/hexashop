@@ -35,12 +35,13 @@ namespace Hexashop.Business
             }
 
             var startPage = _contentLoader.Get<StartPage>(startPageContentLink);
-            var childPages = _contentLoader.GetChildren<SitePageData>(startPage.ContentLink);
-           
+            //var childPages = _contentLoader.GetChildren<SitePageData>(startPage.ContentLink);
+
             return new LayoutModel
             {
                 LogoUrl = startPage.LogoUrl,
-                MenuItems = childPages.ToList(),
+                //MenuItems = childPages.ToList(),
+                MenuItems = startPage.Navigation,
             };
         }
     }

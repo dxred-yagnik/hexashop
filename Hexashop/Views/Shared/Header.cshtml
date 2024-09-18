@@ -13,9 +13,12 @@
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        @foreach (var item in Model.Layout.MenuItems)
+                        @if(Model.Layout.MenuItems?.Count>0)
                         {
-                            <li class="scroll-to-section"><a href="@Url.ContentUrl(item.ContentLink)" class="active">@item.Name</a></li>
+                            foreach (var item in Model.Layout.MenuItems)
+                            {
+                                <li class="scroll-to-section"><a href="@Url.ContentUrl(item.Href)" target="@item.Target" class="active">@item.Text</a></li>
+                            }
                         }
                     </ul>
                     <a class='menu-trigger'>
