@@ -1,4 +1,6 @@
-﻿namespace Hexashop.Models.Pages
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Hexashop.Models.Pages
 {
     [ContentType(
         DisplayName = "Standard Page", 
@@ -6,6 +8,11 @@
         Description = "Standard content page")]
     public class StandardPage : SitePageData
     {
-       
+        [CultureSpecific]
+        [Display(
+            GroupName = Globals.GroupNames.SEO,
+            Order = 10)]
+        public virtual string Heading { get; set; }
+
     }
 }
