@@ -44,13 +44,13 @@
     </div>
     <!-- ***** Preloader End ***** -->
     @{
-        await Html.RenderPartialAsync("Header");
+        await Html.RenderPartialAsync("Header", Model);
     }
 
     @RenderBody()
 
     @{
-        await Html.RenderPartialAsync("Footer");
+        await Html.RenderPartialAsync("Footer", Model);
     }
 
 

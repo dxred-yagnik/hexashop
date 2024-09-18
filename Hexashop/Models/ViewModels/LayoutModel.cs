@@ -1,7 +1,12 @@
-﻿namespace Hexashop.Models.ViewModels
+﻿using EPiServer.SpecializedProperties;
+using Hexashop.Models.Pages;
+
+namespace Hexashop.Models.ViewModels
 {
     public class LayoutModel
     {
         public Url LogoUrl { get; set; }
+
+        public IList<SitePageData> MenuItems { get; set;}
     }
 }
