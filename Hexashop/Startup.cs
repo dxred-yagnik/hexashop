@@ -4,6 +4,7 @@ using EPiServer.Scheduler;
 using EPiServer.ServiceLocation;
 using EPiServer.Web.Routing;
 using Hexashop.Business;
+using Hexashop.Extensions;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Hexashop
@@ -29,10 +30,9 @@ namespace Hexashop
             services
                 .AddCmsAspNetIdentity<ApplicationUser>()
                 .AddCms()
+                .AddHexashop()
                 .AddAdminUserRegistration()
                 .AddEmbeddedLocalization<Startup>();
-
-            services.Configure<MvcOptions>(options => options.Filters.Add<PageContextActionFilter>());
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

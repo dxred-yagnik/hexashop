@@ -14,6 +14,10 @@ namespace Hexashop.Models.Pages
         [UIHint(UIHint.Image)]
         public virtual string ProductName { get; set; }
 
+        [Display(Order = 20)]
+        [Required]
+        public virtual int Price { get; set; }
+
         public override void SetDefaultValues(ContentType contentType)
         {
             this.ProductName = "product 123";
