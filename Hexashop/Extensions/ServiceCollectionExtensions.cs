@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.AspNetCore.Mvc;
 using Hexashop.Business.Channels;
 using EPiServer.Web;
+using EPiServer.Labs.ContentManager;
+using EPiServer.Labs.GridView;
 
 namespace Hexashop.Extensions
 {
@@ -24,6 +26,12 @@ namespace Hexashop.Extensions
 
             services.AddDisplayResolutions();
             services.AddDetection();
+            services.AddContentManager();
+            services.AddGridView(o =>
+                {
+                    o.IsViewEnabled = true;
+                    o.IsComponentEnabled = true;
+                });
 
             return services;
         }
