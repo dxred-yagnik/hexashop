@@ -15,7 +15,6 @@ namespace Hexashop.Models.Pages
         public virtual string ProductName { get; set; }
 
         [Display(Order = 20)]
-        [Required]
         public virtual int Price { get; set; }
 
         [Display(Order = 30)]
@@ -23,5 +22,10 @@ namespace Hexashop.Models.Pages
         [UIHint(UIHint.Image)]
         public virtual Url Image { get; set; }
 
+        public override void SetDefaultValues(ContentType contentType)
+        {
+            this.Price = 90;
+            base.SetDefaultValues(contentType);
+        }
     }
 }

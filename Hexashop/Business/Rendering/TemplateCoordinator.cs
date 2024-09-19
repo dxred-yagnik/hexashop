@@ -2,6 +2,7 @@
 using EPiServer.Web;
 using EPiServer.Web.Mvc;
 using Hexashop.Controllers;
+using Hexashop.Models.Blocks;
 using Hexashop.Models.Pages;
 
 namespace Hexashop.Business.Rendering
@@ -36,6 +37,15 @@ namespace Hexashop.Business.Rendering
         /// </remarks>
         public void Register(TemplateModelCollection viewTemplateModelRegistrator)
         {
+            viewTemplateModelRegistrator.Add(typeof(SocialMediaBlock), new TemplateModel
+            {
+                Name = "SocialMediaWide",
+                Inherit = true,
+                Tags = [Globals.ContentAreaTags.WideWidth, Globals.ContentAreaTags.FullWidth],
+                AvailableWithoutTag = false,
+                Path = BlockPath("SocialMediaWideBlock.cshtml")
+            });
+
             viewTemplateModelRegistrator.Add(typeof(SitePageData), new TemplateModel
             {
                 Name = "Page",
@@ -43,24 +53,6 @@ namespace Hexashop.Business.Rendering
                 AvailableWithoutTag = true,
                 Path = PagePartialPath("Page.cshtml")
             });
-
-            //viewTemplateModelRegistrator.Add(typeof(TeaserBlock), new TemplateModel
-            //{
-            //    Name = "TeaserBlockWide",
-            //    Tags = [Globals.ContentAreaTags.WideWidth, Globals.ContentAreaTags.FullWidth],
-            //    AvailableWithoutTag = false,
-            //});
-
-
-
-            //viewTemplateModelRegistrator.Add(typeof(SitePageData), new TemplateModel
-            //{
-            //    Name = "PageWide",
-            //    Inherit = true,
-            //    Tags = [Globals.ContentAreaTags.WideWidth, Globals.ContentAreaTags.FullWidth],
-            //    AvailableWithoutTag = false,
-            //    Path = PagePartialPath("PageWide.cshtml")
-            //});
 
             viewTemplateModelRegistrator.Add(typeof(IContentData), new TemplateModel
             {
