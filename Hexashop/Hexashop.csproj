@@ -13,6 +13,7 @@
   </ItemGroup>
   
   <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="33.0.1" />
     <PackageReference Include="EPiServer.CMS" Version="12.31.2" />
     <PackageReference Include="EPiServer.Forms" Version="5.9.1" />
     <PackageReference Include="EPiServer.Labs.ContentManager" Version="1.2.0" />
