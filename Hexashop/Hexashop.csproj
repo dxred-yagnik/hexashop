@@ -16,6 +16,7 @@
     <PackageReference Include="EPiServer.CMS" Version="12.31.2" />
     <PackageReference Include="EPiServer.Forms" Version="5.9.1" />
     <PackageReference Include="EPiServer.Labs.LanguageManager" Version="5.3.0" />
+    <PackageReference Include="Wangkanai.Detection" Version="8.14.0" />
   </ItemGroup>
   
   <ItemGroup>
@@ -23,7 +24,11 @@
   </ItemGroup>
   
   <ItemGroup>
-    <Folder Include="Business\Validation\" />
+    <None Remove="Resources\Translations\Display.xml" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="Validation\" />
     <Folder Include="Views\Shared\DisplayTemplates\" />
   </ItemGroup>
 </Project>

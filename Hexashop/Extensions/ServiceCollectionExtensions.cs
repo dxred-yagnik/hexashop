@@ -2,6 +2,7 @@
 using Hexashop.Business;
 using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.AspNetCore.Mvc;
+using Hexashop.Business.Channels;
 
 namespace Hexashop.Extensions
 {
@@ -22,10 +23,18 @@ namespace Hexashop.Extensions
 
 
 
-            //services.AddDisplayResolutions();
-            //services.AddDetection();
+            services.AddDisplayResolutions();
+            services.AddDetection();
 
             return services;
+        }
+
+        private static void AddDisplayResolutions(this IServiceCollection services)
+        {
+            services.AddSingleton<StandardResolution>();
+            services.AddSingleton<IpadHorizontalResolution>();
+            services.AddSingleton<IphoneVerticalResolution>();
+            services.AddSingleton<AndroidVerticalResolution>();
         }
     }
 }
