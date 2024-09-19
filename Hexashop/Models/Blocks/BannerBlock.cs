@@ -26,5 +26,7 @@ namespace Hexashop.Models.Blocks
             Order = 30)]
         public virtual XhtmlString Descrition { get; set; }
 
+        public virtual CallToActionBlock CallToAction { get; set; }
+
     }
 }

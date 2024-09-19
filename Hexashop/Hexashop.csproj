@@ -25,6 +25,7 @@
   
   <ItemGroup>
     <None Remove="Resources\Translations\Display.xml" />
+    <None Remove="Resources\Translations\Hexashop.xml" />
   </ItemGroup>
   
   <ItemGroup>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<languages>
+  <language name="English" id="en">
+    <copyright>Copyright EN Text</copyright>
+  </language>
+  <language name="SV" id="sv">
+    <copyright>Copyright SV Text</copyright>
+  </language>
+</languages>

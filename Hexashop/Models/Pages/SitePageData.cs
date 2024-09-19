@@ -14,6 +14,14 @@ namespace Hexashop.Models.Pages
 
         [CultureSpecific]
         [Display(
+            Name = "Meta Keywords",
+            Description = "Used for search engine.",
+            GroupName = Globals.GroupNames.SEO,
+            Order = 20)]
+        public virtual IList<string> MetaKeywords { get; set; }
+
+        [CultureSpecific]
+        [Display(
            Name = "Sections",
            GroupName = SystemTabNames.Content,
            Description = "Add website sections",
