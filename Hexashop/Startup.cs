@@ -50,6 +50,7 @@ namespace Hexashop
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapContent();
+                endpoints.MapDefaultControllerRoute();
             });
         }
     }
