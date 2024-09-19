@@ -62,14 +62,14 @@ namespace Hexashop.Business.Rendering
             //    Path = PagePartialPath("PageWide.cshtml")
             //});
 
-            //viewTemplateModelRegistrator.Add(typeof(IContentData), new TemplateModel
-            //{
-            //    Name = "NoRenderer",
-            //    Inherit = true,
-            //    Tags = [Globals.ContentAreaTags.NoRenderer],
-            //    AvailableWithoutTag = false,
-            //    Path = BlockPath("NoRenderer.cshtml")
-            //});
+            viewTemplateModelRegistrator.Add(typeof(IContentData), new TemplateModel
+            {
+                Name = "NoRenderer",
+                Inherit = true,
+                Tags = [Globals.ContentAreaTags.NoRenderer],
+                AvailableWithoutTag = false,
+                Path = BlockPath("NoRenderer.cshtml")
+            });
         }
 
         private static string BlockPath(string fileName) => $"{BlockFolder}{fileName}";

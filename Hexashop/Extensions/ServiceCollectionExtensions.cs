@@ -3,6 +3,7 @@ using Hexashop.Business;
 using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.AspNetCore.Mvc;
 using Hexashop.Business.Channels;
+using EPiServer.Web;
 
 namespace Hexashop.Extensions
 {
@@ -13,15 +14,13 @@ namespace Hexashop.Extensions
             services.Configure<RazorViewEngineOptions>(options => options.ViewLocationExpanders.Add(new SiteViewEngineLocationExpander()));
             services.Configure<MvcOptions>(options => options.Filters.Add<PageContextActionFilter>());
 
-            //services.Configure<DisplayOptions>(displayOption =>
-            //{
-            //    displayOption.Add("full", "/displayoptions/full", Globals.ContentAreaTags.FullWidth, string.Empty, "epi-icon__layout--full");
-            //    displayOption.Add("wide", "/displayoptions/wide", Globals.ContentAreaTags.WideWidth, string.Empty, "epi-icon__layout--wide");
-            //    displayOption.Add("half", "/displayoptions/half", Globals.ContentAreaTags.HalfWidth, string.Empty, "epi-icon__layout--half");
-            //    displayOption.Add("narrow", "/displayoptions/narrow", Globals.ContentAreaTags.NarrowWidth, string.Empty, "epi-icon__layout--narrow");
-            //});
-
-
+            services.Configure<DisplayOptions>(displayOption =>
+            {
+                displayOption.Add("full", "/displayoptions/full", Globals.ContentAreaTags.FullWidth, string.Empty, "epi-icon__layout--full");
+                displayOption.Add("wide", "/displayoptions/wide", Globals.ContentAreaTags.WideWidth, string.Empty, "epi-icon__layout--wide");
+                displayOption.Add("half", "/displayoptions/half", Globals.ContentAreaTags.HalfWidth, string.Empty, "epi-icon__layout--half");
+                displayOption.Add("narrow", "/displayoptions/narrow", Globals.ContentAreaTags.NarrowWidth, string.Empty, "epi-icon__layout--narrow");
+            });
 
             services.AddDisplayResolutions();
             services.AddDetection();

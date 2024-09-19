@@ -32,4 +32,8 @@
     <Folder Include="Validation\" />
     <Folder Include="Views\Shared\DisplayTemplates\" />
   </ItemGroup>
+  
+  <ItemGroup>
+    <None Include="Views\Preview\Index.cshtml" />
+  </ItemGroup>
 </Project>
