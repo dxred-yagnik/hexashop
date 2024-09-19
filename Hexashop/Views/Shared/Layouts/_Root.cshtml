@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using EPiServer.Framework.Web
+<!DOCTYPE html>
 <html lang="en">
 @model IPageViewModel<SitePageData>
 
@@ -23,6 +24,7 @@
     <link rel="stylesheet" href="/assets/css/owl-carousel.css">
 
     <link rel="stylesheet" href="/assets/css/lightbox.css">
+    @Html.RequiredClientResources(RenderingTags.Header)
     <!--
 
     TemplateMo 571 Hexashop
@@ -54,6 +56,7 @@
         await Html.RenderPartialAsync("Footer", Model);
     }
 
+    @Html.RequiredClientResources(RenderingTags.Footer)
 
     <!-- jQuery -->
     <script src="/assets/js/jquery-2.1.0.min.js"></script>

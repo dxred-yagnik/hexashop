@@ -1452,7 +1452,8 @@ Subscribe
 }
 
 .subscribe form button {
-  width: 44px;
+  width: 100px;
+  margin-top:10px;
   height: 44px;
   display: inline-block;
   text-align: center;
