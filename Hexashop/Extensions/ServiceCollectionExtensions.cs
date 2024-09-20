@@ -6,6 +6,7 @@ using Hexashop.Business.Channels;
 using EPiServer.Web;
 using EPiServer.Labs.ContentManager;
 using EPiServer.Labs.GridView;
+using EPiServer.Cms.TinyMce.PropertySettings.Internal;
 
 namespace Hexashop.Extensions
 {
@@ -32,6 +33,11 @@ namespace Hexashop.Extensions
                     o.IsViewEnabled = true;
                     o.IsComponentEnabled = true;
                 });
+
+            services.Configure<TinyMcePropertySettingsOptions>(o => {
+                o.Enabled = true;
+                o.AllowAddingBlocks = true;
+            });
 
             return services;
         }
