@@ -1,5 +1,6 @@
 using EPiServer.Cms.Shell;
 using EPiServer.Cms.UI.AspNetIdentity;
+using EPiServer.Find;
 using EPiServer.Scheduler;
 using EPiServer.ServiceLocation;
 using EPiServer.Web.Routing;
@@ -30,9 +31,16 @@ namespace Hexashop
             services
                 .AddCmsAspNetIdentity<ApplicationUser>()
                 .AddCms()
+                .AddFind()
                 .AddHexashop()
                 .AddAdminUserRegistration()
                 .AddEmbeddedLocalization<Startup>();
+
+            services.Configure<FindOptions>(o =>
+            {
+                o.ServiceUrl = "https://service.find.episerver.net/U22n1gEoCgc6y0lD0uMKoTzPApqdw53f/";
+                o.DefaultIndex = "yagnikjadav_hexashop";
+            });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

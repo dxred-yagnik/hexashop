@@ -1,2 +1,31 @@
-﻿@model PageViewModel<ProductCategoryPage>
+﻿@using EPiServer.Find
+@model ProductCategoryPageViewModel
+
+@if (Model.Results != null)
+{
+    <section style="margin-top:150px;">
+        <p>Your search for  <b>@Model.SearchQuery</b> resulted in<b> @Model.Results.TotalMatching</b> hits</p>
+        <ul class="aa-properties-nav aa-list-view">
+            @foreach (var item in Model.Results.Hits)
+            {
+                bool isBestBet = false;
+                if (item.Document.IsBestBet() && item.Document.HasBestBetStyle())
+                {
+                    isBestBet = true;
+                }
+                <li>
+                    <article class="aa-properties-item @(isBestBet ? " bestbet" : "")">
+                        <div class="aa-properties-item-content" style='width:100%;'>
+                            <div class="aa-properties-about">
+                                <h3><a href="@item.Document.Url">@Html.Raw(item.Document.Title)</a></h3>
+                                <p>@Html.Raw(item.Document.Excerpt)</p>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            }
+        </ul>
+    </section>
+}
+
 @Html.PropertyFor(m => m.CurrentPage.Sections)

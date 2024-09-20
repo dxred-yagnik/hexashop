@@ -12,7 +12,6 @@ namespace Hexashop.Controllers
         {
             var model = PageViewModel.Create(currentPage);
 
-
             return View(model);
         }
     }

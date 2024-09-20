@@ -19,6 +19,7 @@ namespace Hexashop.Models.Blocks
         [Display(
             GroupName = SystemTabNames.Content,
             Order = 20)]
+        [Searchable]
         public virtual string Heading { get; set; }
 
         [Display(
