@@ -5,8 +5,7 @@ namespace Hexashop.Business.Extends
     [MenuProvider]
     public class HexashopMenuProvider : IMenuProvider
     {
-        private string menuLocation = "/global/cms/admin";
-
+        private string menuLocation = "/global";
         public IEnumerable<MenuItem> GetMenuItems()
         {
             // parent
@@ -20,7 +19,7 @@ namespace Hexashop.Business.Extends
                 IsAvailable = (request) => true,
                 SortIndex = 100
             };
-            var reports = new UrlMenuItem("Reports", $"{menuLocation}/hexashop/reports", "/HexashopDashboard/reports")
+            var ratings = new UrlMenuItem("Product Ratings", $"{menuLocation}/hexashop/ratings", "/HexashopDashboard/ratings")
             {
                 IsAvailable = (request) => true,
                 SortIndex = 200
@@ -34,7 +33,7 @@ namespace Hexashop.Business.Extends
             return [
                 hexashopSection,
                 overview,
-                reports,
+                ratings,
                 help
             ];
         }

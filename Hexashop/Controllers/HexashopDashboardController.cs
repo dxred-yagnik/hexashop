@@ -1,6 +1,5 @@
-﻿using EPiServer.Cms.Shell.UI.Components;
-using EPiServer.Shell;
-using EPiServer.Shell.ViewComposition;
+﻿using EPiServer.Data.Dynamic;
+using Hexashop.Business.DataStore;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,9 +13,14 @@ namespace Hexashop.Controllers
             return View();
         }
 
-        public ActionResult Reports()
+        public ActionResult Ratings()
         {
-            return View("Index");
+            var _dataStore = DynamicDataStoreFactory.Instance
+               .CreateStore(typeof(ProductRating));
+
+            var model = _dataStore
+                .Items<ProductRating>().ToList();
+            return View("Ratings", model);
         }
     }
 }

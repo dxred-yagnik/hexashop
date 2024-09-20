@@ -8,6 +8,9 @@ using System.Globalization;
 using EPiServer.DataAccess;
 using EPiServer.Security;
 using Hexashop.Models.Pages;
+using EPiServer.Data.Dynamic;
+using EPiServer.Data;
+using Hexashop.Business.DataStore;
 
 namespace Hexashop.Business.Jobs.ProductImport
 {
@@ -26,6 +29,7 @@ namespace Hexashop.Business.Jobs.ProductImport
         private readonly IContentRepository _contentRepository;
         private readonly IUrlSegmentCreator _urlSegmentCreator;
         private readonly IUrlResolver _urlResolver;
+        private readonly DynamicDataStore _dataStore;
 
         private readonly ILogger<ProductImportScheuleJob> _logger;
 
@@ -43,6 +47,10 @@ namespace Hexashop.Business.Jobs.ProductImport
             _contentRepository = contentRepository;
             _urlSegmentCreator = urlSegmentCreator;
             _urlResolver = urlResolver;
+
+            _dataStore = DynamicDataStoreFactory.Instance
+                .CreateStore(typeof(ProductRating));
+
             _logger = logger;
         }
 
@@ -119,8 +127,19 @@ namespace Hexashop.Business.Jobs.ProductImport
                 propertySaveAction = SaveAction.Publish | SaveAction.ForceCurrentVersion;
             }
 
-            _contentRepository.Save(productPage, propertySaveAction, AccessLevel.NoAccess);
+            var productReference = _contentRepository.Save(productPage, propertySaveAction, AccessLevel.NoAccess);
             _logger.LogWarning($"{dto.Name} imported with id {productPage.ContentLink.ID}");
+
+            //store rating in dds
+            var rating = new ProductRating
+            {
+                ProductId = productReference.ID,
+                Comments = "I love this product!",
+                Stars = 5
+            };
+
+            Identity id = _dataStore.Save(rating);
+            var savedRating = _dataStore.Load<ProductRating>(id);
         }
     }
 }

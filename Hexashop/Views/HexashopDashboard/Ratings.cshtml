@@ -1,0 +1,43 @@
+﻿@{
+    Layout = null;
+}
+@model List<ProductRating>
+@using EPiServer.Framework.Web.Resources
+@using EPiServer.Shell.Navigation
+@using Hexashop.Business.DataStore
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+    <!-- Shell -->
+    @ClientResources.RenderResources("ShellCore")
+
+    <!-- LightTheme -->
+    @ClientResources.RenderResources("ShellCoreLightTheme")
+</head>
+<body>
+    @Html.CreatePlatformNavigationMenu()
+    <div @Html.ApplyPlatformNavigation()>
+        <h1>Product Ratings</h1>
+        <table border="1">
+            <tr>
+                <td>Product</td>
+                <td>Comments</td>
+                <td>Stars</td>
+            </tr>
+            @foreach (var rating in Model)
+            {
+                <tr>
+                    <td>@rating.ProductId</td>
+                    <td>@rating.Comments</td>
+                    <td>@rating.Stars</td>
+                </tr>
+            }
+        </table>
+        
+    </div>
+</body>
+</html>
