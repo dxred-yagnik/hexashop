@@ -27,21 +27,23 @@ namespace Hexashop.Business.Jobs.ProductImport
         private readonly IUrlSegmentCreator _urlSegmentCreator;
         private readonly IUrlResolver _urlResolver;
 
-        private readonly ISiteDefinitionRepository _siteDefinitionRepository;
+        private readonly ILogger<ProductImportScheuleJob> _logger;
 
         public ProductImportScheuleJob(
              IWebHostEnvironment webHostEnvironment,
              IContentTypeRepository<PageType> pageTypeRepository,
              IContentRepository contentRepository,
              IUrlSegmentCreator urlSegmentCreator,
-             IUrlResolver urlResolver)
+             IUrlResolver urlResolver,
+             ILogger<ProductImportScheuleJob> logger)
         {
             IsStoppable = true;
             _webHostEnvironment = webHostEnvironment;
             _pageTypeRepository = pageTypeRepository;
             _contentRepository = contentRepository;
             _urlSegmentCreator = urlSegmentCreator;
-            _urlResolver = urlResolver;            
+            _urlResolver = urlResolver;
+            _logger = logger;
         }
 
         /// <summary>
@@ -83,6 +85,7 @@ namespace Hexashop.Business.Jobs.ProductImport
                 foreach (var product in products)
                 {
                     CreateOrUpdateProductPage(product);
+                    
                 }
             }
         }
@@ -117,6 +120,7 @@ namespace Hexashop.Business.Jobs.ProductImport
             }
 
             _contentRepository.Save(productPage, propertySaveAction, AccessLevel.NoAccess);
+            _logger.LogWarning($"{dto.Name} imported with id {productPage.ContentLink.ID}");
         }
     }
 }

@@ -1,0 +1,676 @@
+2024-09-20 10:49:32.625 +05:30 [INF] User profile is available. Using 'C:\Users\YagnikJadav\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-20 10:49:32.700 +05:30 [INF] Initialization started
+2024-09-20 10:49:33.388 +05:30 [INF] No event providers has been configured. Events will not be distributed to other servers.
+2024-09-20 10:49:33.673 +05:30 [INF] Adding module CMS
+2024-09-20 10:49:33.675 +05:30 [INF] Adding module Shell
+2024-09-20 10:49:33.677 +05:30 [INF] Adding module EPiServer.Forms.UI
+2024-09-20 10:49:33.679 +05:30 [INF] Adding module EPiServer.Labs.LanguageManager
+2024-09-20 10:49:33.681 +05:30 [INF] Adding module EPiServer.Cms.UI.Settings
+2024-09-20 10:49:33.684 +05:30 [INF] Adding module episerver-labs-grid-view
+2024-09-20 10:49:33.685 +05:30 [INF] Adding module EPiServer.Cms.UI.Admin
+2024-09-20 10:49:33.688 +05:30 [INF] Adding module episerver-labs-content-manager
+2024-09-20 10:49:33.690 +05:30 [INF] Adding module EPiServer.Cms.UI.VisitorGroups
+2024-09-20 10:49:33.692 +05:30 [INF] Adding module EPiServer.Cms.TinyMce
+2024-09-20 10:49:33.696 +05:30 [INF] Adding module EPiServer.Forms
+2024-09-20 10:49:33.698 +05:30 [INF] Adding module App
+2024-09-20 10:49:33.749 +05:30 [INF] Resolving Json serializer for Module 'EPiServer.Forms.UI' with setting 'ModuleJsonSerializerType=Resolve' and 'PreferredUiJsonSerializerType=Net'
+2024-09-20 10:49:33.752 +05:30 [INF] Resolved Newtonsoft serializer for Module 'EPiServer.Forms.UI' since it has custom Newtonsoft converters
+2024-09-20 10:49:33.756 +05:30 [INF] Resolving Json serializer for Module 'EPiServer.Labs.LanguageManager' with setting 'ModuleJsonSerializerType=Resolve' and 'PreferredUiJsonSerializerType=Resolve'
+2024-09-20 10:49:33.760 +05:30 [INF] Resolved System.Text.Json serializer for Module 'EPiServer.Labs.LanguageManager' according to global formatter
+2024-09-20 10:49:33.763 +05:30 [INF] Resolving Json serializer for Module 'EPiServer.Cms.UI.Settings' with setting 'ModuleJsonSerializerType=Net' and 'PreferredUiJsonSerializerType=Net'
+2024-09-20 10:49:33.766 +05:30 [INF] Resolving Json serializer for Module 'episerver-labs-grid-view' with setting 'ModuleJsonSerializerType=Net' and 'PreferredUiJsonSerializerType=Net'
+2024-09-20 10:49:33.768 +05:30 [INF] Resolving Json serializer for Module 'EPiServer.Cms.UI.Admin' with setting 'ModuleJsonSerializerType=None' and 'PreferredUiJsonSerializerType=Net'
+2024-09-20 10:49:33.770 +05:30 [INF] Resolving Json serializer for Module 'episerver-labs-content-manager' with setting 'ModuleJsonSerializerType=Net' and 'PreferredUiJsonSerializerType=Net'
+2024-09-20 10:49:33.773 +05:30 [INF] Resolving Json serializer for Module 'EPiServer.Cms.UI.VisitorGroups' with setting 'ModuleJsonSerializerType=Net' and 'PreferredUiJsonSerializerType=Net'
+2024-09-20 10:49:33.775 +05:30 [INF] Resolving Json serializer for Module 'EPiServer.Cms.TinyMce' with setting 'ModuleJsonSerializerType=Resolve' and 'PreferredUiJsonSerializerType=Resolve'
+2024-09-20 10:49:33.776 +05:30 [INF] Resolved System.Text.Json serializer for Module 'EPiServer.Cms.TinyMce' according to global formatter
+2024-09-20 10:49:33.779 +05:30 [INF] Resolving Json serializer for Module 'EPiServer.Forms' with setting 'ModuleJsonSerializerType=Resolve' and 'PreferredUiJsonSerializerType=Resolve'
+2024-09-20 10:49:33.781 +05:30 [INF] Resolved System.Text.Json serializer for Module 'EPiServer.Forms' according to global formatter
+2024-09-20 10:49:33.784 +05:30 [INF] Resolving Json serializer for Module 'App' with setting 'ModuleJsonSerializerType=Resolve' and 'PreferredUiJsonSerializerType=Resolve'
+2024-09-20 10:49:33.807 +05:30 [INF] Resolved System.Text.Json serializer for Module 'App' according to global formatter
+2024-09-20 10:49:33.811 +05:30 [INF] Resolved System.Text.Json as serializer for CMS UI
+2024-09-20 10:49:34.018 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.045 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.051 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.057 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.257 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.257 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.258 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.260 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.262 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.258 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.272 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.273 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.273 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.279 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.275 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.268 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.257 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.287 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.291 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.293 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.293 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.300 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.300 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.301 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.293 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.307 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.308 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.310 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.306 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.313 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.309 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.259 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.257 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.324 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.326 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.328 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.330 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.331 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.333 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.259 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.338 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.338 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.343 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.346 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:34.422 +05:30 [INF] Initialize EPiServer Forms.UI
+2024-09-20 10:49:34.689 +05:30 [INF] Initialize EPiServer Forms: SetupRootFolderForForm
+2024-09-20 10:49:34.774 +05:30 [INF] Initialize EPiServer Forms: configured RootFolder for Block = 58
+2024-09-20 10:49:34.824 +05:30 [INF] SetupRootFolderForForm: now Forms work with RootFolder for Block = 58
+2024-09-20 10:49:34.863 +05:30 [INF] Found 1 types, which implement (IsAssignableFrom) EPiServer.Forms.Core.Feed.Internal.IFeedProvider
+2024-09-20 10:49:34.868 +05:30 [INF] Add to cache: EPiServer.Forms.Core.Feed.Internal.IFeedProvider, has 1 instance(s)
+2024-09-20 10:49:34.873 +05:30 [INF] Initialize EPiServer Forms: use custom FormViewEngines
+2024-09-20 10:49:34.999 +05:30 [INF] Initialization completed
+2024-09-20 10:49:35.595 +05:30 [INF] Now listening on: https://localhost:5000
+2024-09-20 10:49:35.638 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-20 10:49:35.642 +05:30 [INF] Hosting environment: Development
+2024-09-20 10:49:35.645 +05:30 [INF] Content root path: D:\Dxred\Dxred\Episerver\Training\Alchemy IBM X\IBM\code\hexashop\Hexashop
+2024-09-20 10:49:36.384 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/ - null null
+2024-09-20 10:49:36.532 +05:30 [INF] First request initialization started for request 'https://localhost:5000/'
+2024-09-20 10:49:36.587 +05:30 [INF] First request initialization completed for request 'https://localhost:5000/'
+2024-09-20 10:49:37.219 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'ApplicationDbContext<ApplicationUser>' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-09-20 10:49:37.489 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AccessFailedCount], [a].[Comment], [a].[ConcurrencyStamp], [a].[CreationDate], [a].[Email], [a].[EmailConfirmed], [a].[IsApproved], [a].[IsLockedOut], [a].[LastLockoutDate], [a].[LastLoginDate], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+ORDER BY [a].[UserName]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-09-20 10:49:37.578 +05:30 [INF] The admin user registration is disabled, no redirect to '/Util/Register' will happen.
+2024-09-20 10:49:37.858 +05:30 [INF] Executing endpoint 'Hexashop.Controllers.StartPageController.Index (Hexashop)'
+2024-09-20 10:49:37.879 +05:30 [INF] Route matched with {action = "Index", controller = "StartPage", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Hexashop.Models.Pages.StartPage) on controller Hexashop.Controllers.StartPageController (Hexashop).
+2024-09-20 10:49:37.913 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-20 10:49:38.687 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:38.689 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:38.712 +05:30 [INF] Rendering form in View mode
+2024-09-20 10:49:38.716 +05:30 [INF] Register built-in Css Resources for this form
+2024-09-20 10:49:38.723 +05:30 [INF] Register JavaScript Resources for this form
+2024-09-20 10:49:38.835 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:38.975 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-20 10:49:39.090 +05:30 [INF] Found 1 types, which implement (IsAssignableFrom) EPiServer.Forms.Core.Internal.VisitorIdentify.IVisitorIdentifyProvider
+2024-09-20 10:49:39.094 +05:30 [INF] Add to cache: EPiServer.Forms.Core.Internal.VisitorIdentify.IVisitorIdentifyProvider, has 1 instance(s)
+2024-09-20 10:49:39.524 +05:30 [INF] Executed ViewResult - view Index executed in 1607.8709ms.
+2024-09-20 10:49:39.537 +05:30 [INF] Executed action Hexashop.Controllers.StartPageController.Index (Hexashop) in 1654.7571ms
+2024-09-20 10:49:39.540 +05:30 [INF] Executed endpoint 'Hexashop.Controllers.StartPageController.Index (Hexashop)'
+2024-09-20 10:49:39.561 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/ - 200 null text/html; charset=utf-8 3182.6957ms
+2024-09-20 10:49:39.625 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-20 10:49:39.633 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/_vs/browserLink - null null
+2024-09-20 10:49:39.639 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 13.7375ms
+2024-09-20 10:49:39.687 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/_vs/browserLink - 200 null text/javascript; charset=UTF-8 54.4392ms
+2024-09-20 10:49:47.473 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/episerver/cms - null null
+2024-09-20 10:49:47.490 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.DefaultShellModuleController.Index (EPiServer.Shell.UI)'
+2024-09-20 10:49:47.496 +05:30 [INF] Route matched with {action = "Index", controller = "DefaultShellModule", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index(EPiServer.Shell.Modules.ShellModule, System.String) on controller EPiServer.Shell.UI.Controllers.Internal.DefaultShellModuleController (EPiServer.Shell.UI).
+2024-09-20 10:49:47.636 +05:30 [INF] Executing ViewResult, running view /CmsUIViews/Views/Shared/Bootstrapper.cshtml.
+2024-09-20 10:49:47.834 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'ApplicationDbContext<ApplicationUser>' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-09-20 10:49:47.871 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Comment], [a].[ConcurrencyStamp], [a].[CreationDate], [a].[Email], [a].[EmailConfirmed], [a].[IsApproved], [a].[IsLockedOut], [a].[LastLockoutDate], [a].[LastLoginDate], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-09-20 10:49:48.047 +05:30 [INF] Executed ViewResult - view /CmsUIViews/Views/Shared/Bootstrapper.cshtml executed in 411.1331ms.
+2024-09-20 10:49:48.051 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.DefaultShellModuleController.Index (EPiServer.Shell.UI) in 551.692ms
+2024-09-20 10:49:48.055 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.DefaultShellModuleController.Index (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.059 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/episerver/cms - 200 null text/html; charset=utf-8 585.571ms
+2024-09-20 10:49:48.084 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-20 10:49:48.088 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 4.1759ms
+2024-09-20 10:49:48.097 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/_vs/browserLink - null null
+2024-09-20 10:49:48.128 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.1014ms
+2024-09-20 10:49:48.260 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/Shell/epiproducts - null null
+2024-09-20 10:49:48.260 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/Shell/epiplatformnavigation?product=global_cms&parentProduct= - null null
+2024-09-20 10:49:48.274 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/shell/ui/nls/en-us/episerver.shared.js - null null
+2024-09-20 10:49:48.277 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/shell/ui/nls/en-us/episerver.shell.ui.resources.js - null null
+2024-09-20 10:49:48.282 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/cms/nls/en-us/episerver.cms.js - null null
+2024-09-20 10:49:48.285 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/cms/nls/en-us/contenttypes.js - null null
+2024-09-20 10:49:48.290 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiProductsController.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.290 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.290 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiPlatformNavigationController.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.290 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.290 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.290 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.304 +05:30 [INF] Route matched with {area = "Shell", action = "DojoResources", controller = "EPiResources"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DojoResources(System.String) on controller EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController (EPiServer.Shell.UI).
+2024-09-20 10:49:48.305 +05:30 [INF] Route matched with {area = "Shell", action = "DojoResources", controller = "EPiResources"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DojoResources(System.String) on controller EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController (EPiServer.Shell.UI).
+2024-09-20 10:49:48.305 +05:30 [INF] Route matched with {area = "Shell", action = "DojoResources", controller = "EPiResources"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DojoResources(System.String) on controller EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController (EPiServer.Shell.UI).
+2024-09-20 10:49:48.312 +05:30 [INF] Route matched with {area = "Shell", action = "Get", controller = "EPiProducts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get() on controller EPiServer.Shell.UI.Controllers.Internal.EPiProductsController (EPiServer.Shell.UI).
+2024-09-20 10:49:48.315 +05:30 [INF] Route matched with {area = "Shell", action = "Get", controller = "EPiPlatformNavigation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.String, System.String) on controller EPiServer.Shell.UI.Controllers.Internal.EPiPlatformNavigationController (EPiServer.Shell.UI).
+2024-09-20 10:49:48.304 +05:30 [INF] Route matched with {area = "Shell", action = "DojoResources", controller = "EPiResources"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DojoResources(System.String) on controller EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController (EPiServer.Shell.UI).
+2024-09-20 10:49:48.369 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI) in 59.8788ms
+2024-09-20 10:49:48.370 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.EPiPlatformNavigationController.Get (EPiServer.Shell.UI) in 44.4155ms
+2024-09-20 10:49:48.369 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.EPiProductsController.Get (EPiServer.Shell.UI) in 45.1647ms
+2024-09-20 10:49:48.374 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.374 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiPlatformNavigationController.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.378 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/shell/ui/nls/en-us/episerver.shell.ui.resources.js - 200 null text/javascript 101.2385ms
+2024-09-20 10:49:48.381 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/Shell/epiplatformnavigation?product=global_cms&parentProduct= - 200 null application/json 121.191ms
+2024-09-20 10:49:48.376 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiProductsController.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.369 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI) in 42.3061ms
+2024-09-20 10:49:48.394 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/Shell/epiproducts - 200 null application/json 134.784ms
+2024-09-20 10:49:48.397 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.401 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/shell/ui/nls/en-us/episerver.shared.js - 200 null text/javascript 126.8481ms
+2024-09-20 10:49:48.413 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI) in 106.1105ms
+2024-09-20 10:49:48.413 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI) in 102.888ms
+2024-09-20 10:49:48.417 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.421 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.422 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/cms/nls/en-us/episerver.cms.js - 200 null text/javascript 140.1482ms
+2024-09-20 10:49:48.426 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/cms/nls/en-us/contenttypes.js - 200 null text/javascript 140.8342ms
+2024-09-20 10:49:48.429 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/Shell/epiresources/GetLocalizationResourceWithCurrentCulture/?typeName=EPiServer.shell.ui.views.search.resources - null null
+2024-09-20 10:49:48.429 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/CMS/stores/notification - null null
+2024-09-20 10:49:48.436 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.GetLocalizationResourceWithCurrentCulture (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.439 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Notifications.NotificationStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:48.444 +05:30 [INF] Route matched with {area = "Shell", action = "GetLocalizationResourceWithCurrentCulture", controller = "EPiResources"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetLocalizationResourceWithCurrentCulture(System.String) on controller EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController (EPiServer.Shell.UI).
+2024-09-20 10:49:48.450 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "NotificationStore"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Int32], EPiServer.Shell.Services.Rest.ItemRange) on controller EPiServer.Cms.Shell.UI.Rest.Notifications.NotificationStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:48.451 +05:30 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2024-09-20 10:49:48.456 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.GetLocalizationResourceWithCurrentCulture (EPiServer.Shell.UI) in 8.6355ms
+2024-09-20 10:49:48.458 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.GetLocalizationResourceWithCurrentCulture (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.461 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/Shell/epiresources/GetLocalizationResourceWithCurrentCulture/?typeName=EPiServer.shell.ui.views.search.resources - 200 null application/json 31.1603ms
+2024-09-20 10:49:48.470 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/cms/nls/en-us/episerver.cms.widget.uploadmultiplefiles.js - null null
+2024-09-20 10:49:48.475 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.480 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/shell/ui/nls/en-us/contenttypes.js - null null
+2024-09-20 10:49:48.480 +05:30 [INF] Route matched with {area = "Shell", action = "DojoResources", controller = "EPiResources"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DojoResources(System.String) on controller EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController (EPiServer.Shell.UI).
+2024-09-20 10:49:48.489 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI) in 1.525ms
+2024-09-20 10:49:48.489 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.492 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.497 +05:30 [INF] Route matched with {area = "Shell", action = "DojoResources", controller = "EPiResources"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DojoResources(System.String) on controller EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController (EPiServer.Shell.UI).
+2024-09-20 10:49:48.498 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/cms/nls/en-us/episerver.cms.widget.uploadmultiplefiles.js - 200 null text/javascript 26.4941ms
+2024-09-20 10:49:48.507 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI) in 6.5962ms
+2024-09-20 10:49:48.509 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.512 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/shell/ui/nls/en-us/contenttypes.js - 200 null text/javascript 31.913ms
+2024-09-20 10:49:48.518 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'ApplicationDbContext<ApplicationUser>' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-09-20 10:49:48.527 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Comment], [a].[ConcurrencyStamp], [a].[CreationDate], [a].[Email], [a].[EmailConfirmed], [a].[IsApproved], [a].[IsLockedOut], [a].[LastLockoutDate], [a].[LastLoginDate], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-09-20 10:49:48.566 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5000/EPiServer/Shell/socket/endpoint/ - null null
+2024-09-20 10:49:48.566 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/shell/Stores/profile/userName - application/x-www-form-urlencoded null
+2024-09-20 10:49:48.572 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/shell/Stores/uidescriptor/ - application/x-www-form-urlencoded null
+2024-09-20 10:49:48.572 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Notifications.NotificationStore.Get (EPiServer.Cms.Shell.UI) in 118.2935ms
+2024-09-20 10:49:48.578 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Notifications.NotificationStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:48.580 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Rest.ProfileStore.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.587 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Rest.Internal.UIDescriptorStore.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.592 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/CMS/stores/notification - 200 null application/json 162.9508ms
+2024-09-20 10:49:48.597 +05:30 [INF] Route matched with {area = "Shell", action = "Get", controller = "ProfileStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResult Get(System.String) on controller EPiServer.Shell.UI.Rest.ProfileStore (EPiServer.Shell.UI).
+2024-09-20 10:49:48.598 +05:30 [INF] Route matched with {area = "Shell", action = "Get", controller = "UIDescriptorStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResult Get() on controller EPiServer.Shell.UI.Rest.Internal.UIDescriptorStore (EPiServer.Shell.UI).
+2024-09-20 10:49:48.641 +05:30 [INF] Executed action EPiServer.Shell.UI.Rest.ProfileStore.Get (EPiServer.Shell.UI) in 39.0686ms
+2024-09-20 10:49:48.649 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Rest.ProfileStore.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.652 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/shell/Stores/profile/userName - 200 null application/json 86.0296ms
+2024-09-20 10:49:48.672 +05:30 [INF] Executing endpoint '/EPiServer/Shell/socket/endpoint/'
+2024-09-20 10:49:48.754 +05:30 [INF] Executed action EPiServer.Shell.UI.Rest.Internal.UIDescriptorStore.Get (EPiServer.Shell.UI) in 129.4082ms
+2024-09-20 10:49:48.758 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Rest.Internal.UIDescriptorStore.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.760 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/shell/Stores/uidescriptor/ - 200 null application/json 187.6022ms
+2024-09-20 10:49:48.776 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/cms/nls/en-us/episerver.cms.widget.contenttypelist.js - null null
+2024-09-20 10:49:48.781 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.786 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/nls/en-us/episerver.shell.resources.texts.js - null null
+2024-09-20 10:49:48.788 +05:30 [INF] Route matched with {area = "Shell", action = "DojoResources", controller = "EPiResources"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DojoResources(System.String) on controller EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController (EPiServer.Shell.UI).
+2024-09-20 10:49:48.795 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.796 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI) in 2.6804ms
+2024-09-20 10:49:48.800 +05:30 [INF] Route matched with {area = "Shell", action = "DojoResources", controller = "EPiResources"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DojoResources(System.String) on controller EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController (EPiServer.Shell.UI).
+2024-09-20 10:49:48.802 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.806 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/cms/nls/en-us/episerver.cms.widget.contenttypelist.js - 200 null text/javascript 29.8895ms
+2024-09-20 10:49:48.807 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI) in 3.1564ms
+2024-09-20 10:49:48.813 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.818 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/nls/en-us/episerver.shell.resources.texts.js - 200 null text/javascript 34.9097ms
+2024-09-20 10:49:48.839 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/shell/Stores/profile/editlanguage - application/x-www-form-urlencoded null
+2024-09-20 10:49:48.847 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Rest.ProfileStore.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.850 +05:30 [INF] Route matched with {area = "Shell", action = "Get", controller = "ProfileStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResult Get(System.String) on controller EPiServer.Shell.UI.Rest.ProfileStore (EPiServer.Shell.UI).
+2024-09-20 10:49:48.855 +05:30 [INF] Executed action EPiServer.Shell.UI.Rest.ProfileStore.Get (EPiServer.Shell.UI) in 1.6383ms
+2024-09-20 10:49:48.857 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Rest.ProfileStore.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.859 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/shell/Stores/profile/editlanguage - 200 null application/json 20.5775ms
+2024-09-20 10:49:48.867 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contenttype/ - application/x-www-form-urlencoded null
+2024-09-20 10:49:48.872 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/shell/Stores/profile/epi.selected-comparemode-id - application/x-www-form-urlencoded null
+2024-09-20 10:49:48.874 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/shell/Stores/profile/epi.current-project-id - application/x-www-form-urlencoded null
+2024-09-20 10:49:48.884 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Rest.ProfileStore.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.891 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/shell/Stores/profile/lastContext/episerver/cms/home - application/x-www-form-urlencoded null
+2024-09-20 10:49:48.891 +05:30 [INF] Route matched with {area = "Shell", action = "Get", controller = "ProfileStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResult Get(System.String) on controller EPiServer.Shell.UI.Rest.ProfileStore (EPiServer.Shell.UI).
+2024-09-20 10:49:48.892 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Rest.ProfileStore.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.900 +05:30 [INF] Route matched with {area = "Shell", action = "Get", controller = "ProfileStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResult Get(System.String) on controller EPiServer.Shell.UI.Rest.ProfileStore (EPiServer.Shell.UI).
+2024-09-20 10:49:48.904 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Rest.ProfileStore.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.907 +05:30 [INF] Executed action EPiServer.Shell.UI.Rest.ProfileStore.Get (EPiServer.Shell.UI) in 8.5242ms
+2024-09-20 10:49:48.908 +05:30 [INF] Route matched with {area = "Shell", action = "Get", controller = "ProfileStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResult Get(System.String) on controller EPiServer.Shell.UI.Rest.ProfileStore (EPiServer.Shell.UI).
+2024-09-20 10:49:48.911 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Rest.ProfileStore.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.908 +05:30 [INF] Executed action EPiServer.Shell.UI.Rest.ProfileStore.Get (EPiServer.Shell.UI) in 4.4461ms
+2024-09-20 10:49:48.921 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/shell/Stores/profile/epi.selected-comparemode-id - 200 null application/json 48.7938ms
+2024-09-20 10:49:48.925 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/cms/nls/en-us/episerver.forms.editview.js - null null
+2024-09-20 10:49:48.921 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentTypeStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:48.921 +05:30 [INF] Executed action EPiServer.Shell.UI.Rest.ProfileStore.Get (EPiServer.Shell.UI) in 5.8313ms
+2024-09-20 10:49:48.925 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Rest.ProfileStore.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.938 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Rest.ProfileStore.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.940 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/shell/Stores/profile/epi.current-project-id - 200 null application/json 65.7602ms
+2024-09-20 10:49:48.944 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/shell/Stores/profile/lastContext/episerver/cms/home - 200 null application/json 53.6194ms
+2024-09-20 10:49:48.945 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/cms/nls/en-us/contentchildren.commands.managecontentcontainer.js - null null
+2024-09-20 10:49:48.956 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.957 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.962 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "ContentTypeStore"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Get(System.Nullable`1[System.Int32], System.String, EPiServer.Core.ContentReference, System.Nullable`1[System.Boolean], System.Collections.Generic.IEnumerable`1[System.String]) on controller EPiServer.Cms.Shell.UI.Rest.Internal.ContentTypeStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:48.960 +05:30 [INF] Route matched with {area = "Shell", action = "DojoResources", controller = "EPiResources"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DojoResources(System.String) on controller EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController (EPiServer.Shell.UI).
+2024-09-20 10:49:48.965 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/sitestructure/ - application/x-www-form-urlencoded null
+2024-09-20 10:49:48.971 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/visitorgroup/ - application/x-www-form-urlencoded null
+2024-09-20 10:49:48.975 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/shell/Stores/licenseinformation/ - application/x-www-form-urlencoded null
+2024-09-20 10:49:48.982 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.SiteStructureStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:48.983 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.VisitorGroupStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:48.988 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Rest.Internal.LicenseInformationStore.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.975 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/channel/?query=getallregistered - application/x-www-form-urlencoded null
+2024-09-20 10:49:48.992 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI) in 21.2552ms
+2024-09-20 10:49:48.968 +05:30 [INF] Route matched with {area = "Shell", action = "DojoResources", controller = "EPiResources"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DojoResources(System.String) on controller EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController (EPiServer.Shell.UI).
+2024-09-20 10:49:48.998 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "VisitorGroupStore"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Get(System.Nullable`1[System.Guid], EPiServer.Shell.Services.Rest.ItemRange) on controller EPiServer.Cms.Shell.UI.Rest.Internal.VisitorGroupStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:49.000 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.999 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ChannelStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:49.011 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/cms/nls/en-us/episerver.forms.editview.js - 200 null text/javascript 87.5426ms
+2024-09-20 10:49:49.009 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "SiteStructureStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResult Get(System.String, System.Nullable`1[System.Boolean]) on controller EPiServer.Cms.Shell.UI.Rest.Internal.SiteStructureStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:49.009 +05:30 [INF] Route matched with {area = "Shell", action = "Get", controller = "LicenseInformationStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResult Get(System.String) on controller EPiServer.Shell.UI.Rest.Internal.LicenseInformationStore (EPiServer.Shell.UI).
+2024-09-20 10:49:49.013 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI) in 9.8603ms
+2024-09-20 10:49:49.020 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/shell/Stores/context/?uri=epi.cms.contentdata%3A%2F%2F%2F11 - application/x-www-form-urlencoded null
+2024-09-20 10:49:49.021 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "ChannelStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResultBase Get(System.String, System.String) on controller EPiServer.Cms.Shell.UI.Rest.Internal.ChannelStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:49.025 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:48.988 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/shell/Stores/component/?viewName=%2Fepiserver%2Fcms%2Fhome - application/x-www-form-urlencoded null
+2024-09-20 10:49:49.033 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/cms/nls/en-us/contentchildren.commands.managecontentcontainer.js - 200 null text/javascript 88.5895ms
+2024-09-20 10:49:49.035 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Rest.ContextStore.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.043 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Rest.ComponentStore.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.050 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/cms/nls/en-us/languagemanager.gadget.js - null null
+2024-09-20 10:49:49.054 +05:30 [INF] Executed action EPiServer.Shell.UI.Rest.Internal.LicenseInformationStore.Get (EPiServer.Shell.UI) in 33.6128ms
+2024-09-20 10:49:49.054 +05:30 [INF] Route matched with {area = "Shell", action = "Get", controller = "ContextStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResultBase Get(System.String, System.String) on controller EPiServer.Shell.UI.Rest.ContextStore (EPiServer.Shell.UI).
+2024-09-20 10:49:49.061 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Internal.ChannelStore.Get (EPiServer.Cms.Shell.UI) in 31.5478ms
+2024-09-20 10:49:49.059 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Rest.Internal.LicenseInformationStore.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.066 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ChannelStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:49.056 +05:30 [INF] Route matched with {area = "Shell", action = "Get", controller = "ComponentStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResult Get(System.String, System.Nullable`1[System.Guid], System.Nullable`1[System.Guid], System.String) on controller EPiServer.Shell.UI.Rest.ComponentStore (EPiServer.Shell.UI).
+2024-09-20 10:49:49.073 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/channel/?query=getallregistered - 200 null application/json 98.403ms
+2024-09-20 10:49:49.070 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/shell/Stores/licenseinformation/ - 200 null application/json 94.7112ms
+2024-09-20 10:49:49.073 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.086 +05:30 [INF] Route matched with {area = "Shell", action = "DojoResources", controller = "EPiResources"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DojoResources(System.String) on controller EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController (EPiServer.Shell.UI).
+2024-09-20 10:49:49.090 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Internal.SiteStructureStore.Get (EPiServer.Cms.Shell.UI) in 71.5338ms
+2024-09-20 10:49:49.092 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI) in 3.1152ms
+2024-09-20 10:49:49.096 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.SiteStructureStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:49.100 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.104 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/sitestructure/ - 200 null application/json 138.5378ms
+2024-09-20 10:49:49.106 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/cms/nls/en-us/languagemanager.gadget.js - 200 null text/javascript 56.1541ms
+2024-09-20 10:49:49.114 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/sitestructure/?siteUrl=https%3A%2F%2Flocalhost%3A5000%2F&allLanguages=true - application/x-www-form-urlencoded null
+2024-09-20 10:49:49.119 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.SiteStructureStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:49.122 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Internal.VisitorGroupStore.Get (EPiServer.Cms.Shell.UI) in 114.2512ms
+2024-09-20 10:49:49.126 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "SiteStructureStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResult Get(System.String, System.Nullable`1[System.Boolean]) on controller EPiServer.Cms.Shell.UI.Rest.Internal.SiteStructureStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:49.126 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.VisitorGroupStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:49.133 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/visitorgroup/ - 200 null application/json 164.3274ms
+2024-09-20 10:49:49.145 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Internal.SiteStructureStore.Get (EPiServer.Cms.Shell.UI) in 14.3207ms
+2024-09-20 10:49:49.148 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.SiteStructureStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:49.151 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/sitestructure/?siteUrl=https%3A%2F%2Flocalhost%3A5000%2F&allLanguages=true - 200 null application/json 36.7501ms
+2024-09-20 10:49:49.190 +05:30 [INF] Executed action EPiServer.Shell.UI.Rest.ComponentStore.Get (EPiServer.Shell.UI) in 114.4015ms
+2024-09-20 10:49:49.193 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Rest.ComponentStore.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.196 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/shell/Stores/component/?viewName=%2Fepiserver%2Fcms%2Fhome - 200 null application/json 208.5595ms
+2024-09-20 10:49:49.225 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/shell/nls/en-us/button.js - null null
+2024-09-20 10:49:49.224 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/cms/nls/en-us/edit.imageeditor.js - null null
+2024-09-20 10:49:49.230 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/cms/nls/en-us/episerver.forms.formscomponent.js - null null
+2024-09-20 10:49:49.231 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.233 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/shell/nls/en-us/edit.languagesettings.js - null null
+2024-09-20 10:49:49.239 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/cms/nls/en-us/languagemanager.addtoproject.js - null null
+2024-09-20 10:49:49.240 +05:30 [INF] Route matched with {area = "Shell", action = "DojoResources", controller = "EPiResources"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DojoResources(System.String) on controller EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController (EPiServer.Shell.UI).
+2024-09-20 10:49:49.244 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.252 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.255 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.267 +05:30 [INF] Route matched with {area = "Shell", action = "DojoResources", controller = "EPiResources"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DojoResources(System.String) on controller EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController (EPiServer.Shell.UI).
+2024-09-20 10:49:49.295 +05:30 [INF] Route matched with {area = "Shell", action = "DojoResources", controller = "EPiResources"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DojoResources(System.String) on controller EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController (EPiServer.Shell.UI).
+2024-09-20 10:49:49.255 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI) in 4.1012ms
+2024-09-20 10:49:49.305 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI) in 5.784ms
+2024-09-20 10:49:49.309 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.312 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI) in 8.5056ms
+2024-09-20 10:49:49.315 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.326 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.325 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/shell/nls/en-us/button.js - 200 null text/javascript 99.2234ms
+2024-09-20 10:49:49.333 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/cms/nls/en-us/episerver.forms.formscomponent.js - 200 null text/javascript 100.9989ms
+2024-09-20 10:49:49.334 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/cms/nls/en-us/languagemanager.addtoproject.js - 200 null text/javascript 94.322ms
+2024-09-20 10:49:49.252 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.268 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/cms/nls/en-us/contentchildren.commands.js - null null
+2024-09-20 10:49:49.352 +05:30 [INF] Route matched with {area = "Shell", action = "DojoResources", controller = "EPiResources"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DojoResources(System.String) on controller EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController (EPiServer.Shell.UI).
+2024-09-20 10:49:49.261 +05:30 [INF] Route matched with {area = "Shell", action = "DojoResources", controller = "EPiResources"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DojoResources(System.String) on controller EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController (EPiServer.Shell.UI).
+2024-09-20 10:49:49.237 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/cms/nls/en-us/languagemanager.js - null null
+2024-09-20 10:49:49.359 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI) in 3.1399ms
+2024-09-20 10:49:49.360 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.368 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.364 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI) in 5.8955ms
+2024-09-20 10:49:49.373 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/shell/nls/en-us/edit.languagesettings.js - 200 null text/javascript 142.4763ms
+2024-09-20 10:49:49.371 +05:30 [INF] Route matched with {area = "Shell", action = "DojoResources", controller = "EPiResources"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DojoResources(System.String) on controller EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController (EPiServer.Shell.UI).
+2024-09-20 10:49:49.375 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.373 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.386 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/cms/nls/en-us/edit.imageeditor.js - 200 null text/javascript 162.2934ms
+2024-09-20 10:49:49.391 +05:30 [INF] Route matched with {area = "Shell", action = "DojoResources", controller = "EPiResources"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DojoResources(System.String) on controller EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController (EPiServer.Shell.UI).
+2024-09-20 10:49:49.396 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI) in 16.7294ms
+2024-09-20 10:49:49.316 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/cms/nls/en-us/contentchildren.renderers.js - null null
+2024-09-20 10:49:49.402 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.406 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI) in 6.8605ms
+2024-09-20 10:49:49.406 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/cms/nls/en-us/contentchildren.commands.js - 200 null text/javascript 138.4096ms
+2024-09-20 10:49:49.410 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.415 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.419 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/cms/nls/en-us/languagemanager.js - 200 null text/javascript 181.5181ms
+2024-09-20 10:49:49.424 +05:30 [INF] Route matched with {area = "Shell", action = "DojoResources", controller = "EPiResources"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DojoResources(System.String) on controller EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController (EPiServer.Shell.UI).
+2024-09-20 10:49:49.429 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI) in 1.8593ms
+2024-09-20 10:49:49.432 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.435 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/cms/nls/en-us/contentchildren.renderers.js - 200 null text/javascript 119.39ms
+2024-09-20 10:49:49.490 +05:30 [INF] Executed action EPiServer.Shell.UI.Rest.ContextStore.Get (EPiServer.Shell.UI) in 428.5355ms
+2024-09-20 10:49:49.493 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Rest.ContextStore.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.497 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/shell/Stores/context/?uri=epi.cms.contentdata%3A%2F%2F%2F11 - 200 null application/json 477.9099ms
+2024-09-20 10:49:49.500 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/shell/Stores/searchproviders/?searchArea=cms%2Fpages - application/x-www-form-urlencoded null
+2024-09-20 10:49:49.504 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/sitestructure/?siteUrl=https%3A%2F%2Flocalhost%3A5000%2F&allLanguages=true - application/x-www-form-urlencoded null
+2024-09-20 10:49:49.505 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/language/en - application/x-www-form-urlencoded null
+2024-09-20 10:49:49.506 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/2 - application/x-www-form-urlencoded null
+2024-09-20 10:49:49.529 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Rest.SearchProviderStore.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.537 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/1 - application/x-www-form-urlencoded null
+2024-09-20 10:49:49.539 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.LanguageStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:49.540 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:49.539 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/sitestructure/?allLanguages=true - application/x-www-form-urlencoded null
+2024-09-20 10:49:49.548 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.SiteStructureStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:49.544 +05:30 [INF] Route matched with {area = "Shell", action = "Get", controller = "SearchProviderStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResult Get(System.String) on controller EPiServer.Shell.UI.Rest.SearchProviderStore (EPiServer.Shell.UI).
+2024-09-20 10:49:49.557 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.SiteStructureStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:49.557 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "SiteStructureStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResult Get(System.String, System.Nullable`1[System.Boolean]) on controller EPiServer.Cms.Shell.UI.Rest.Internal.SiteStructureStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:49.558 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:49.584 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Internal.ContentTypeStore.Get (EPiServer.Cms.Shell.UI) in 615.4184ms
+2024-09-20 10:49:49.588 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "ContentStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResultBase Get(EPiServer.Core.ContentReference, System.String, EPiServer.Core.ContentReference, EPiServer.Core.ContentReference[], System.String[], System.Nullable`1[System.Boolean], System.String, EPiServer.Core.ContentReference, System.Collections.Generic.IEnumerable`1[EPiServer.Shell.Services.Rest.SortColumn], EPiServer.Core.ContentReference, EPiServer.Shell.Services.Rest.ItemRange) on controller EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:49.590 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentTypeStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:49.582 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "LanguageStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResult Get(System.String, EPiServer.Shell.Services.Rest.ItemRange) on controller EPiServer.Cms.Shell.UI.Rest.Internal.LanguageStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:49.596 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contenttype/ - 200 null application/json 729.4593ms
+2024-09-20 10:49:49.588 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "ContentStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResultBase Get(EPiServer.Core.ContentReference, System.String, EPiServer.Core.ContentReference, EPiServer.Core.ContentReference[], System.String[], System.Nullable`1[System.Boolean], System.String, EPiServer.Core.ContentReference, System.Collections.Generic.IEnumerable`1[EPiServer.Shell.Services.Rest.SortColumn], EPiServer.Core.ContentReference, EPiServer.Shell.Services.Rest.ItemRange) on controller EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:49.582 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "SiteStructureStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResult Get(System.String, System.Nullable`1[System.Boolean]) on controller EPiServer.Cms.Shell.UI.Rest.Internal.SiteStructureStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:49.630 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Internal.SiteStructureStore.Get (EPiServer.Cms.Shell.UI) in 44.8817ms
+2024-09-20 10:49:49.633 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.SiteStructureStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:49.636 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Internal.SiteStructureStore.Get (EPiServer.Cms.Shell.UI) in 6.102ms
+2024-09-20 10:49:49.636 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/sitestructure/?siteUrl=https%3A%2F%2Flocalhost%3A5000%2F&allLanguages=true - 200 null application/json 132.0527ms
+2024-09-20 10:49:49.643 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Internal.LanguageStore.Get (EPiServer.Cms.Shell.UI) in 44.1586ms
+2024-09-20 10:49:49.643 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.SiteStructureStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:49.651 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.LanguageStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:49.655 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/sitestructure/?allLanguages=true - 200 null application/json 117.9536ms
+2024-09-20 10:49:49.656 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/10 - application/x-www-form-urlencoded null
+2024-09-20 10:49:49.679 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/language/en - 200 null application/json 174.1052ms
+2024-09-20 10:49:49.656 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/3 - application/x-www-form-urlencoded null
+2024-09-20 10:49:49.691 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:49.700 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:49.707 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "ContentStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResultBase Get(EPiServer.Core.ContentReference, System.String, EPiServer.Core.ContentReference, EPiServer.Core.ContentReference[], System.String[], System.Nullable`1[System.Boolean], System.String, EPiServer.Core.ContentReference, System.Collections.Generic.IEnumerable`1[EPiServer.Shell.Services.Rest.SortColumn], EPiServer.Core.ContentReference, EPiServer.Shell.Services.Rest.ItemRange) on controller EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:49.729 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "ContentStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResultBase Get(EPiServer.Core.ContentReference, System.String, EPiServer.Core.ContentReference, EPiServer.Core.ContentReference[], System.String[], System.Nullable`1[System.Boolean], System.String, EPiServer.Core.ContentReference, System.Collections.Generic.IEnumerable`1[EPiServer.Shell.Services.Rest.SortColumn], EPiServer.Core.ContentReference, EPiServer.Shell.Services.Rest.ItemRange) on controller EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:49.753 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/58 - application/x-www-form-urlencoded null
+2024-09-20 10:49:49.760 +05:30 [INF] Executed action EPiServer.Shell.UI.Rest.SearchProviderStore.Get (EPiServer.Shell.UI) in 203.4264ms
+2024-09-20 10:49:49.764 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:49.768 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Rest.SearchProviderStore.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.771 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "ContentStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResultBase Get(EPiServer.Core.ContentReference, System.String, EPiServer.Core.ContentReference, EPiServer.Core.ContentReference[], System.String[], System.Nullable`1[System.Boolean], System.String, EPiServer.Core.ContentReference, System.Collections.Generic.IEnumerable`1[EPiServer.Shell.Services.Rest.SortColumn], EPiServer.Core.ContentReference, EPiServer.Shell.Services.Rest.ItemRange) on controller EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:49.776 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/shell/Stores/searchproviders/?searchArea=cms%2Fpages - 200 null application/json 275.7829ms
+2024-09-20 10:49:49.811 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/ - application/x-www-form-urlencoded null
+2024-09-20 10:49:49.815 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/?query=activitiesnotready&sort(+name) - application/x-www-form-urlencoded null
+2024-09-20 10:49:49.839 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:49.846 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/shell/Stores/profile/epi.project-is-activities-visible - application/x-www-form-urlencoded null
+2024-09-20 10:49:49.842 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:49.849 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/episerver-labs-grid-view/Stores/contentChildren/ - application/x-www-form-urlencoded null
+2024-09-20 10:49:49.856 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "ContentStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResultBase Get(EPiServer.Core.ContentReference, System.String, EPiServer.Core.ContentReference, EPiServer.Core.ContentReference[], System.String[], System.Nullable`1[System.Boolean], System.String, EPiServer.Core.ContentReference, System.Collections.Generic.IEnumerable`1[EPiServer.Shell.Services.Rest.SortColumn], EPiServer.Core.ContentReference, EPiServer.Shell.Services.Rest.ItemRange) on controller EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:49.846 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "ContentStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResultBase Get(EPiServer.Core.ContentReference, System.String, EPiServer.Core.ContentReference, EPiServer.Core.ContentReference[], System.String[], System.Nullable`1[System.Boolean], System.String, EPiServer.Core.ContentReference, System.Collections.Generic.IEnumerable`1[EPiServer.Shell.Services.Rest.SortColumn], EPiServer.Core.ContentReference, EPiServer.Shell.Services.Rest.ItemRange) on controller EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:49.843 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/shell/Stores/profile/epi.project-changes-sort-order - application/x-www-form-urlencoded null
+2024-09-20 10:49:49.870 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Rest.ProfileStore.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.874 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Rest.ProfileStore.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.876 +05:30 [INF] Route matched with {area = "Shell", action = "Get", controller = "ProfileStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResult Get(System.String) on controller EPiServer.Shell.UI.Rest.ProfileStore (EPiServer.Shell.UI).
+2024-09-20 10:49:49.879 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI) in 11.5406ms
+2024-09-20 10:49:49.885 +05:30 [INF] Executing endpoint 'EPiServer.Labs.GridView.ChildrenStore.ContentChildrenStore.Get (EPiServer.Labs.GridView)'
+2024-09-20 10:49:49.890 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:49.879 +05:30 [INF] Route matched with {area = "Shell", action = "Get", controller = "ProfileStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResult Get(System.String) on controller EPiServer.Shell.UI.Rest.ProfileStore (EPiServer.Shell.UI).
+2024-09-20 10:49:49.897 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/ - 200 null application/json 84.6156ms
+2024-09-20 10:49:49.897 +05:30 [INF] Executed action EPiServer.Shell.UI.Rest.ProfileStore.Get (EPiServer.Shell.UI) in 14.984ms
+2024-09-20 10:49:49.902 +05:30 [INF] Executed action EPiServer.Shell.UI.Rest.ProfileStore.Get (EPiServer.Shell.UI) in 1.7563ms
+2024-09-20 10:49:49.911 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Rest.ProfileStore.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.913 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Rest.ProfileStore.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:49.926 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/shell/Stores/profile/epi.project-is-activities-visible - 200 null application/json 80.5946ms
+2024-09-20 10:49:49.928 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/shell/Stores/profile/epi.project-changes-sort-order - 200 null application/json 83.9332ms
+2024-09-20 10:49:49.938 +05:30 [INF] Route matched with {area = "episerver-labs-grid-view", action = "Get", controller = "ContentChildrenStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResult Get(EPiServer.Core.ContentReference, System.Nullable`1[System.Boolean], System.String, System.Nullable`1[System.Boolean], System.Collections.Generic.IEnumerable`1[EPiServer.Core.VersionStatus], System.Collections.Generic.IEnumerable`1[EPiServer.Shell.Services.Rest.SortColumn], EPiServer.Shell.Services.Rest.ItemRange) on controller EPiServer.Labs.GridView.ChildrenStore.ContentChildrenStore (EPiServer.Labs.GridView).
+2024-09-20 10:49:49.954 +05:30 [INF] Executed action EPiServer.Labs.GridView.ChildrenStore.ContentChildrenStore.Get (EPiServer.Labs.GridView) in 13.8342ms
+2024-09-20 10:49:49.958 +05:30 [INF] Executed endpoint 'EPiServer.Labs.GridView.ChildrenStore.ContentChildrenStore.Get (EPiServer.Labs.GridView)'
+2024-09-20 10:49:49.969 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/episerver-labs-grid-view/Stores/contentChildren/ - 200 0 null 121.6163ms
+2024-09-20 10:49:50.035 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/?sort(+name) - application/x-www-form-urlencoded null
+2024-09-20 10:49:50.040 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.048 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "ContentStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResultBase Get(EPiServer.Core.ContentReference, System.String, EPiServer.Core.ContentReference, EPiServer.Core.ContentReference[], System.String[], System.Nullable`1[System.Boolean], System.String, EPiServer.Core.ContentReference, System.Collections.Generic.IEnumerable`1[EPiServer.Shell.Services.Rest.SortColumn], EPiServer.Core.ContentReference, EPiServer.Shell.Services.Rest.ItemRange) on controller EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:50.056 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/ - application/x-www-form-urlencoded null
+2024-09-20 10:49:50.081 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.084 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "ContentStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResultBase Get(EPiServer.Core.ContentReference, System.String, EPiServer.Core.ContentReference, EPiServer.Core.ContentReference[], System.String[], System.Nullable`1[System.Boolean], System.String, EPiServer.Core.ContentReference, System.Collections.Generic.IEnumerable`1[EPiServer.Shell.Services.Rest.SortColumn], EPiServer.Core.ContentReference, EPiServer.Shell.Services.Rest.ItemRange) on controller EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:50.085 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI) in 29.4502ms
+2024-09-20 10:49:50.091 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.093 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/ - application/x-www-form-urlencoded null
+2024-09-20 10:49:50.097 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/?sort(+name) - 200 null application/json 62.1879ms
+2024-09-20 10:49:50.108 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.115 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "ContentStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResultBase Get(EPiServer.Core.ContentReference, System.String, EPiServer.Core.ContentReference, EPiServer.Core.ContentReference[], System.String[], System.Nullable`1[System.Boolean], System.String, EPiServer.Core.ContentReference, System.Collections.Generic.IEnumerable`1[EPiServer.Shell.Services.Rest.SortColumn], EPiServer.Core.ContentReference, EPiServer.Shell.Services.Rest.ItemRange) on controller EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:50.122 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI) in 32.2664ms
+2024-09-20 10:49:50.126 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI) in 5.0335ms
+2024-09-20 10:49:50.131 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.127 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.137 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/ - 200 null application/json 44.5769ms
+2024-09-20 10:49:50.141 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/ - 200 null application/json 84.8253ms
+2024-09-20 10:49:50.161 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/ - application/x-www-form-urlencoded null
+2024-09-20 10:49:50.166 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.169 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "ContentStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResultBase Get(EPiServer.Core.ContentReference, System.String, EPiServer.Core.ContentReference, EPiServer.Core.ContentReference[], System.String[], System.Nullable`1[System.Boolean], System.String, EPiServer.Core.ContentReference, System.Collections.Generic.IEnumerable`1[EPiServer.Shell.Services.Rest.SortColumn], EPiServer.Core.ContentReference, EPiServer.Shell.Services.Rest.ItemRange) on controller EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:50.175 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI) in 3.5991ms
+2024-09-20 10:49:50.178 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.182 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/ - 200 null application/json 20.8488ms
+2024-09-20 10:49:50.212 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI) in 455.423ms
+2024-09-20 10:49:50.212 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI) in 620.2599ms
+2024-09-20 10:49:50.214 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI) in 434.3749ms
+2024-09-20 10:49:50.214 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI) in 460.6244ms
+2024-09-20 10:49:50.220 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.222 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.224 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.227 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/1 - 200 null application/json 690.1111ms
+2024-09-20 10:49:50.229 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/58 - 200 null application/json 475.9167ms
+2024-09-20 10:49:50.232 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/10 - 200 null application/json 576.4582ms
+2024-09-20 10:49:50.212 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI) in 604.7911ms
+2024-09-20 10:49:50.245 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.217 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.250 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/2 - 200 null application/json 743.8109ms
+2024-09-20 10:49:50.253 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/3 - 200 null application/json 596.8369ms
+2024-09-20 10:49:50.292 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI) in 428.2267ms
+2024-09-20 10:49:50.297 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.301 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/?query=activitiesnotready&sort(+name) - 200 null application/json 485.4023ms
+2024-09-20 10:49:50.323 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/11 - application/x-www-form-urlencoded null
+2024-09-20 10:49:50.327 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/?query=activitiesnotready&sort(+name) - application/x-www-form-urlencoded null
+2024-09-20 10:49:50.331 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.336 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentversion/?contentLink=11&sort(-savedDate) - application/x-www-form-urlencoded null
+2024-09-20 10:49:50.335 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "ContentStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResultBase Get(EPiServer.Core.ContentReference, System.String, EPiServer.Core.ContentReference, EPiServer.Core.ContentReference[], System.String[], System.Nullable`1[System.Boolean], System.String, EPiServer.Core.ContentReference, System.Collections.Generic.IEnumerable`1[EPiServer.Shell.Services.Rest.SortColumn], EPiServer.Core.ContentReference, EPiServer.Shell.Services.Rest.ItemRange) on controller EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:50.337 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.342 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentdata/11_145 - application/x-www-form-urlencoded null
+2024-09-20 10:49:50.349 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "ContentStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResultBase Get(EPiServer.Core.ContentReference, System.String, EPiServer.Core.ContentReference, EPiServer.Core.ContentReference[], System.String[], System.Nullable`1[System.Boolean], System.String, EPiServer.Core.ContentReference, System.Collections.Generic.IEnumerable`1[EPiServer.Shell.Services.Rest.SortColumn], EPiServer.Core.ContentReference, EPiServer.Shell.Services.Rest.ItemRange) on controller EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:50.355 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentVersionStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.364 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentDataStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.370 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "ContentVersionStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResultBase Get(EPiServer.Core.ContentReference, EPiServer.Core.ContentReference, System.String, System.Collections.Generic.IEnumerable`1[EPiServer.Shell.Services.Rest.SortColumn], System.String, EPiServer.Shell.Services.Rest.ItemRange) on controller EPiServer.Cms.Shell.UI.Rest.Internal.ContentVersionStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:50.377 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "ContentDataStore"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Get(EPiServer.Core.ContentReference, EPiServer.Core.ContentReference, System.String[]) on controller EPiServer.Cms.Shell.UI.Rest.Internal.ContentDataStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:50.394 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI) in 49.6734ms
+2024-09-20 10:49:50.398 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.399 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI) in 40.9356ms
+2024-09-20 10:49:50.403 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/11 - 200 null application/json 79.8084ms
+2024-09-20 10:49:50.404 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.410 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/?query=activitiesnotready&sort(+name) - 200 null application/json 83.6637ms
+2024-09-20 10:49:50.479 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contenttype/3 - application/x-www-form-urlencoded null
+2024-09-20 10:49:50.481 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/?references=3&query=getpagedchildren&allLanguages=true&typeIdentifiers=episerver.core.blockdata&sort(+name) - application/x-www-form-urlencoded null
+2024-09-20 10:49:50.488 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.488 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentTypeStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.493 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "ContentStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResultBase Get(EPiServer.Core.ContentReference, System.String, EPiServer.Core.ContentReference, EPiServer.Core.ContentReference[], System.String[], System.Nullable`1[System.Boolean], System.String, EPiServer.Core.ContentReference, System.Collections.Generic.IEnumerable`1[EPiServer.Shell.Services.Rest.SortColumn], EPiServer.Core.ContentReference, EPiServer.Shell.Services.Rest.ItemRange) on controller EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:50.490 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/?references=58&query=getpagedchildren&allLanguages=true&typeIdentifiers=episerver.forms.implementation.elements.formcontainerblock&sort(+name) - application/x-www-form-urlencoded null
+2024-09-20 10:49:50.496 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "ContentTypeStore"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Get(System.Nullable`1[System.Int32], System.String, EPiServer.Core.ContentReference, System.Nullable`1[System.Boolean], System.Collections.Generic.IEnumerable`1[System.String]) on controller EPiServer.Cms.Shell.UI.Rest.Internal.ContentTypeStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:50.507 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5000/EPiServer/EPiServer.Labs.LanguageManager/Stores/language-manager/ - application/json 2
+2024-09-20 10:49:50.518 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Internal.ContentTypeStore.Get (EPiServer.Cms.Shell.UI) in 8.8633ms
+2024-09-20 10:49:50.546 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentTypeStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.506 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5000/EPiServer/shell/Stores/component/ - application/json 1510
+2024-09-20 10:49:50.509 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5000/EPiServer/EPiServer.Labs.LanguageManager/Stores/language-manager/ - application/json 2
+2024-09-20 10:49:50.557 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contenttype/3 - 200 null application/json 77.7727ms
+2024-09-20 10:49:50.568 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5000/EPiServer/EPiServer.Labs.LanguageManager/Stores/language-manager/ - application/json 2
+2024-09-20 10:49:50.507 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.606 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "ContentStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResultBase Get(EPiServer.Core.ContentReference, System.String, EPiServer.Core.ContentReference, EPiServer.Core.ContentReference[], System.String[], System.Nullable`1[System.Boolean], System.String, EPiServer.Core.ContentReference, System.Collections.Generic.IEnumerable`1[EPiServer.Shell.Services.Rest.SortColumn], EPiServer.Core.ContentReference, EPiServer.Shell.Services.Rest.ItemRange) on controller EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:50.608 +05:30 [INF] Executing endpoint 'EPiServer.Labs.LanguageManager.Controllers.LanguageManagerStore.HasAnyLanguageAvailable (EPiServer.Labs.LanguageManager)'
+2024-09-20 10:49:50.612 +05:30 [INF] Executing endpoint 'EPiServer.Labs.LanguageManager.Controllers.LanguageManagerStore.IsCurrentUserInAdminRole (EPiServer.Labs.LanguageManager)'
+2024-09-20 10:49:50.576 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Rest.ComponentStore.Save (EPiServer.Shell.UI)'
+2024-09-20 10:49:50.626 +05:30 [INF] Route matched with {area = "EPiServer.Labs.LanguageManager", action = "HasAnyLanguageAvailable", controller = "LanguageManagerStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResult HasAnyLanguageAvailable() on controller EPiServer.Labs.LanguageManager.Controllers.LanguageManagerStore (EPiServer.Labs.LanguageManager).
+2024-09-20 10:49:50.627 +05:30 [INF] Route matched with {area = "EPiServer.Labs.LanguageManager", action = "IsCurrentUserInAdminRole", controller = "LanguageManagerStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResult IsCurrentUserInAdminRole() on controller EPiServer.Labs.LanguageManager.Controllers.LanguageManagerStore (EPiServer.Labs.LanguageManager).
+2024-09-20 10:49:50.579 +05:30 [INF] Executing endpoint 'EPiServer.Labs.LanguageManager.Controllers.LanguageManagerStore.IsTranslatingServiceAvailable (EPiServer.Labs.LanguageManager)'
+2024-09-20 10:49:50.678 +05:30 [INF] Route matched with {area = "Shell", action = "Save", controller = "ComponentStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResult Save(System.Collections.Generic.IEnumerable`1[EPiServer.Shell.UI.Models.ComponentViewModel]) on controller EPiServer.Shell.UI.Rest.ComponentStore (EPiServer.Shell.UI).
+2024-09-20 10:49:50.682 +05:30 [INF] Route matched with {area = "EPiServer.Labs.LanguageManager", action = "IsTranslatingServiceAvailable", controller = "LanguageManagerStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResult IsTranslatingServiceAvailable() on controller EPiServer.Labs.LanguageManager.Controllers.LanguageManagerStore (EPiServer.Labs.LanguageManager).
+2024-09-20 10:49:50.708 +05:30 [INF] Executed action EPiServer.Labs.LanguageManager.Controllers.LanguageManagerStore.IsCurrentUserInAdminRole (EPiServer.Labs.LanguageManager) in 52.9483ms
+2024-09-20 10:49:50.708 +05:30 [INF] Executed action EPiServer.Labs.LanguageManager.Controllers.LanguageManagerStore.HasAnyLanguageAvailable (EPiServer.Labs.LanguageManager) in 54.5366ms
+2024-09-20 10:49:50.708 +05:30 [INF] Executed action EPiServer.Labs.LanguageManager.Controllers.LanguageManagerStore.IsTranslatingServiceAvailable (EPiServer.Labs.LanguageManager) in 1.9581ms
+2024-09-20 10:49:50.713 +05:30 [INF] Executed endpoint 'EPiServer.Labs.LanguageManager.Controllers.LanguageManagerStore.IsCurrentUserInAdminRole (EPiServer.Labs.LanguageManager)'
+2024-09-20 10:49:50.717 +05:30 [INF] Executed endpoint 'EPiServer.Labs.LanguageManager.Controllers.LanguageManagerStore.HasAnyLanguageAvailable (EPiServer.Labs.LanguageManager)'
+2024-09-20 10:49:50.726 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5000/EPiServer/EPiServer.Labs.LanguageManager/Stores/language-manager/ - 200 null application/json 219.9368ms
+2024-09-20 10:49:50.729 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5000/EPiServer/EPiServer.Labs.LanguageManager/Stores/language-manager/ - 200 null application/json 161.5719ms
+2024-09-20 10:49:50.721 +05:30 [INF] Executed endpoint 'EPiServer.Labs.LanguageManager.Controllers.LanguageManagerStore.IsTranslatingServiceAvailable (EPiServer.Labs.LanguageManager)'
+2024-09-20 10:49:50.761 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/EPiServer.Labs.LanguageManager/Stores/language-manager/?contentLink=11_145 - application/x-www-form-urlencoded null
+2024-09-20 10:49:50.761 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5000/EPiServer/EPiServer.Labs.LanguageManager/Stores/language-manager/ - 200 null application/json 252.1018ms
+2024-09-20 10:49:50.767 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI) in 268.2701ms
+2024-09-20 10:49:50.761 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI) in 151.7851ms
+2024-09-20 10:49:50.774 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.779 +05:30 [INF] Executing endpoint 'EPiServer.Labs.LanguageManager.Controllers.LanguageManagerStore.Get (EPiServer.Labs.LanguageManager)'
+2024-09-20 10:49:50.782 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/?references=3&query=getpagedchildren&allLanguages=true&typeIdentifiers=episerver.core.blockdata&sort(+name) - 200 null application/json 301.4513ms
+2024-09-20 10:49:50.777 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.791 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/EPiServer.Cms.UI.Admin/default - null null
+2024-09-20 10:49:50.794 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/shell/nls/en-us/admin.searchusers.js - null null
+2024-09-20 10:49:50.798 +05:30 [INF] Route matched with {area = "EPiServer.Labs.LanguageManager", action = "Get", controller = "LanguageManagerStore"}. Executing controller action with signature EPiServer.Shell.Services.Rest.RestResultBase Get(System.String, EPiServer.Shell.Services.Rest.ItemRange) on controller EPiServer.Labs.LanguageManager.Controllers.LanguageManagerStore (EPiServer.Labs.LanguageManager).
+2024-09-20 10:49:50.794 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentstructure/?references=58&query=getpagedchildren&allLanguages=true&typeIdentifiers=episerver.forms.implementation.elements.formcontainerblock&sort(+name) - 200 null application/json 304.4805ms
+2024-09-20 10:49:50.811 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/EPiServer.Cms.UI.Admin/default - null null
+2024-09-20 10:49:50.814 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:50.820 +05:30 [INF] Route matched with {area = "Shell", action = "DojoResources", controller = "EPiResources"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DojoResources(System.String) on controller EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController (EPiServer.Shell.UI).
+2024-09-20 10:49:50.830 +05:30 [INF] Executing endpoint 'EPiServer.Cms.UI.Admin.DefaultController.Index (EPiServer.Cms.UI.Admin)'
+2024-09-20 10:49:50.833 +05:30 [INF] Executed endpoint '/EPiServer/Shell/socket/endpoint/'
+2024-09-20 10:49:50.837 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5000/EPiServer/Shell/socket/endpoint/ - 200 null null 2270.836ms
+2024-09-20 10:49:50.845 +05:30 [INF] Route matched with {area = "EPiServer.Cms.UI.Admin", action = "Index", controller = "Default"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller EPiServer.Cms.UI.Admin.DefaultController (EPiServer.Cms.UI.Admin).
+2024-09-20 10:49:50.850 +05:30 [INF] Executing endpoint 'EPiServer.Cms.UI.Admin.DefaultController.Index (EPiServer.Cms.UI.Admin)'
+2024-09-20 10:49:50.853 +05:30 [INF] Route matched with {area = "EPiServer.Cms.UI.Admin", action = "Index", controller = "Default"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller EPiServer.Cms.UI.Admin.DefaultController (EPiServer.Cms.UI.Admin).
+2024-09-20 10:49:50.853 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI) in 29.355ms
+2024-09-20 10:49:50.855 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Internal.ContentVersionStore.Get (EPiServer.Cms.Shell.UI) in 480.0418ms
+2024-09-20 10:49:50.861 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.DojoResources (EPiServer.Shell.UI)'
+2024-09-20 10:49:50.866 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentVersionStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:50.911 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/Shell/12.31.2/ClientResources/EPi/shell/nls/en-us/admin.searchusers.js - 200 null text/javascript 94.8613ms
+2024-09-20 10:49:50.912 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentversion/?contentLink=11&sort(-savedDate) - 499 null application/json 577.1554ms
+2024-09-20 10:49:50.914 +05:30 [INF] Connection id "0HN6P6F8LH1GH", Request id "0HN6P6F8LH1GH:0000002F": the application completed without reading the entire request body.
+2024-09-20 10:49:50.921 +05:30 [INF] Executed action EPiServer.Labs.LanguageManager.Controllers.LanguageManagerStore.Get (EPiServer.Labs.LanguageManager) in 115.2505ms
+2024-09-20 10:49:50.923 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5000/EPiServer/Shell/socket/endpoint/ - null null
+2024-09-20 10:49:50.926 +05:30 [INF] Executed endpoint 'EPiServer.Labs.LanguageManager.Controllers.LanguageManagerStore.Get (EPiServer.Labs.LanguageManager)'
+2024-09-20 10:49:50.951 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/EPiServer.Labs.LanguageManager/Stores/language-manager/?contentLink=11_145 - 499 null null 190.1226ms
+2024-09-20 10:49:50.957 +05:30 [INF] Executing endpoint '/EPiServer/Shell/socket/endpoint/'
+2024-09-20 10:49:50.971 +05:30 [INF] Executed action EPiServer.Shell.UI.Rest.ComponentStore.Save (EPiServer.Shell.UI) in 268.1579ms
+2024-09-20 10:49:50.996 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Rest.ComponentStore.Save (EPiServer.Shell.UI)'
+2024-09-20 10:49:51.004 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5000/EPiServer/shell/Stores/component/ - 499 null null 497.5068ms
+2024-09-20 10:49:51.016 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-20 10:49:51.016 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-20 10:49:51.026 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'ApplicationDbContext<ApplicationUser>' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-09-20 10:49:51.053 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Comment], [a].[ConcurrencyStamp], [a].[CreationDate], [a].[Email], [a].[EmailConfirmed], [a].[IsApproved], [a].[IsLockedOut], [a].[LastLockoutDate], [a].[LastLoginDate], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-09-20 10:49:51.075 +05:30 [INF] Executed ViewResult - view Index executed in 60.0269ms.
+2024-09-20 10:49:51.082 +05:30 [INF] Executed action EPiServer.Cms.UI.Admin.DefaultController.Index (EPiServer.Cms.UI.Admin) in 231.5687ms
+2024-09-20 10:49:51.086 +05:30 [INF] Executed endpoint 'EPiServer.Cms.UI.Admin.DefaultController.Index (EPiServer.Cms.UI.Admin)'
+2024-09-20 10:49:51.088 +05:30 [INF] Executed endpoint '/EPiServer/Shell/socket/endpoint/'
+2024-09-20 10:49:51.091 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/EPiServer.Cms.UI.Admin/default - 200 null text/html; charset=utf-8 300.0446ms
+2024-09-20 10:49:51.094 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5000/EPiServer/Shell/socket/endpoint/ - 200 null null 171.0166ms
+2024-09-20 10:49:51.100 +05:30 [INF] Connection id "0HN6P6F8LH1GH", Request id "0HN6P6F8LH1GH:000000A9": the application completed without reading the entire request body.
+2024-09-20 10:49:51.108 +05:30 [INF] Executed ViewResult - view Index executed in 93.0363ms.
+2024-09-20 10:49:51.116 +05:30 [INF] Executed action EPiServer.Cms.UI.Admin.DefaultController.Index (EPiServer.Cms.UI.Admin) in 257.842ms
+2024-09-20 10:49:51.120 +05:30 [INF] Executed endpoint 'EPiServer.Cms.UI.Admin.DefaultController.Index (EPiServer.Cms.UI.Admin)'
+2024-09-20 10:49:51.120 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/EPiServer.Cms.UI.Admin/12.31.2/clientResources/dist/admin.bundle.css - null null
+2024-09-20 10:49:51.126 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/EPiServer.Cms.UI.Admin/default - 200 null text/html; charset=utf-8 314.4469ms
+2024-09-20 10:49:51.142 +05:30 [INF] Executing endpoint 'HTTP: GET EPiServer/EPiServer.Cms.UI.Admin/12.31.2/{folder}/{**path:epi-staticfile}'
+2024-09-20 10:49:51.168 +05:30 [INF] Sending file. Request path: '/EPiServer/EPiServer.Cms.UI.Admin/12.31.2/clientResources/dist/admin.bundle.css'. Physical path: 'N/A'
+2024-09-20 10:49:51.174 +05:30 [INF] Executed endpoint 'HTTP: GET EPiServer/EPiServer.Cms.UI.Admin/12.31.2/{folder}/{**path:epi-staticfile}'
+2024-09-20 10:49:51.179 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/EPiServer.Cms.UI.Admin/12.31.2/clientResources/dist/admin.bundle.css - 499 242798 text/css 58.9734ms
+2024-09-20 10:49:51.199 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-09-20 10:49:51.231 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-20 10:49:51.233 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/_vs/browserLink - null null
+2024-09-20 10:49:51.238 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 7.2776ms
+2024-09-20 10:49:51.274 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.0121ms
+2024-09-20 10:49:51.350 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Internal.ContentDataStore.Get (EPiServer.Cms.Shell.UI) in 967.7884ms
+2024-09-20 10:49:51.353 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Internal.ContentDataStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:51.355 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/cms/Stores/contentdata/11_145 - 499 null application/json 1015.2108ms
+2024-09-20 10:49:51.487 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/Shell/epiproducts - null null
+2024-09-20 10:49:51.487 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/Shell/epiplatformnavigation?product=global_cms&parentProduct= - null null
+2024-09-20 10:49:51.494 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiProductsController.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:51.498 +05:30 [INF] Route matched with {area = "Shell", action = "Get", controller = "EPiProducts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get() on controller EPiServer.Shell.UI.Controllers.Internal.EPiProductsController (EPiServer.Shell.UI).
+2024-09-20 10:49:51.504 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiPlatformNavigationController.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:51.508 +05:30 [INF] Route matched with {area = "Shell", action = "Get", controller = "EPiPlatformNavigation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.String, System.String) on controller EPiServer.Shell.UI.Controllers.Internal.EPiPlatformNavigationController (EPiServer.Shell.UI).
+2024-09-20 10:49:51.511 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.EPiProductsController.Get (EPiServer.Shell.UI) in 7.9868ms
+2024-09-20 10:49:51.514 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiProductsController.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:51.518 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/Shell/epiproducts - 200 null application/json 31.5229ms
+2024-09-20 10:49:51.527 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.EPiPlatformNavigationController.Get (EPiServer.Shell.UI) in 16.8453ms
+2024-09-20 10:49:51.531 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiPlatformNavigationController.Get (EPiServer.Shell.UI)'
+2024-09-20 10:49:51.537 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/Shell/epiplatformnavigation?product=global_cms&parentProduct= - 200 null application/json 49.6041ms
+2024-09-20 10:49:51.583 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/EPiServer.Cms.UI.Admin/ContentTypesList/list - null null
+2024-09-20 10:49:51.588 +05:30 [INF] Executing endpoint 'EPiServer.Cms.UI.Admin.ContentTypes.Internal.ContentTypesListController.List (EPiServer.Cms.UI.Admin)'
+2024-09-20 10:49:51.592 +05:30 [INF] Route matched with {area = "EPiServer.Cms.UI.Admin", action = "List", controller = "ContentTypesList"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult List() on controller EPiServer.Cms.UI.Admin.ContentTypes.Internal.ContentTypesListController (EPiServer.Cms.UI.Admin).
+2024-09-20 10:49:51.624 +05:30 [INF] Executed action EPiServer.Cms.UI.Admin.ContentTypes.Internal.ContentTypesListController.List (EPiServer.Cms.UI.Admin) in 28.4205ms
+2024-09-20 10:49:51.630 +05:30 [INF] Executed endpoint 'EPiServer.Cms.UI.Admin.ContentTypes.Internal.ContentTypesListController.List (EPiServer.Cms.UI.Admin)'
+2024-09-20 10:49:51.637 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/EPiServer.Cms.UI.Admin/ContentTypesList/list - 200 null application/json 54.2211ms
+2024-09-20 10:49:51.682 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/Shell/epiresources/GetLocalizationResourceWithCurrentCulture/?typeName=EPiServer.shell.ui.views.search.resources - null null
+2024-09-20 10:49:51.684 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/CMS/stores/notification - null null
+2024-09-20 10:49:51.691 +05:30 [INF] Executing endpoint 'EPiServer.Cms.Shell.UI.Rest.Notifications.NotificationStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:51.695 +05:30 [INF] Route matched with {area = "CMS", action = "Get", controller = "NotificationStore"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.Nullable`1[System.Int32], EPiServer.Shell.Services.Rest.ItemRange) on controller EPiServer.Cms.Shell.UI.Rest.Notifications.NotificationStore (EPiServer.Cms.Shell.UI).
+2024-09-20 10:49:51.700 +05:30 [INF] Executing endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.GetLocalizationResourceWithCurrentCulture (EPiServer.Shell.UI)'
+2024-09-20 10:49:51.703 +05:30 [INF] Route matched with {area = "Shell", action = "GetLocalizationResourceWithCurrentCulture", controller = "EPiResources"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetLocalizationResourceWithCurrentCulture(System.String) on controller EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController (EPiServer.Shell.UI).
+2024-09-20 10:49:51.706 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'ApplicationDbContext<ApplicationUser>' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-09-20 10:49:51.712 +05:30 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2024-09-20 10:49:51.721 +05:30 [INF] Executed action EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.GetLocalizationResourceWithCurrentCulture (EPiServer.Shell.UI) in 12.1919ms
+2024-09-20 10:49:51.724 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Comment], [a].[ConcurrencyStamp], [a].[CreationDate], [a].[Email], [a].[EmailConfirmed], [a].[IsApproved], [a].[IsLockedOut], [a].[LastLockoutDate], [a].[LastLoginDate], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-09-20 10:49:51.727 +05:30 [INF] Executed endpoint 'EPiServer.Shell.UI.Controllers.Internal.EPiResourcesController.GetLocalizationResourceWithCurrentCulture (EPiServer.Shell.UI)'
+2024-09-20 10:49:51.733 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/Shell/epiresources/GetLocalizationResourceWithCurrentCulture/?typeName=EPiServer.shell.ui.views.search.resources - 200 null application/json 50.6978ms
+2024-09-20 10:49:51.739 +05:30 [INF] Executed action EPiServer.Cms.Shell.UI.Rest.Notifications.NotificationStore.Get (EPiServer.Cms.Shell.UI) in 39.6306ms
+2024-09-20 10:49:51.742 +05:30 [INF] Executed endpoint 'EPiServer.Cms.Shell.UI.Rest.Notifications.NotificationStore.Get (EPiServer.Cms.Shell.UI)'
+2024-09-20 10:49:51.746 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/CMS/stores/notification - 200 null application/json 61.7405ms
+2024-09-20 10:49:54.846 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/EPiServer.Cms.UI.Admin/ScheduledJobs/List - null null
+2024-09-20 10:49:54.853 +05:30 [INF] Executing endpoint 'EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController.List (EPiServer.Cms.UI.Admin)'
+2024-09-20 10:49:54.857 +05:30 [INF] Route matched with {area = "EPiServer.Cms.UI.Admin", action = "List", controller = "ScheduledJobs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult List() on controller EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController (EPiServer.Cms.UI.Admin).
+2024-09-20 10:49:54.900 +05:30 [INF] Executed action EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController.List (EPiServer.Cms.UI.Admin) in 40.0745ms
+2024-09-20 10:49:54.902 +05:30 [INF] Executed endpoint 'EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController.List (EPiServer.Cms.UI.Admin)'
+2024-09-20 10:49:54.904 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/EPiServer.Cms.UI.Admin/ScheduledJobs/List - 200 null application/json 58.7326ms
+2024-09-20 10:49:56.477 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/EPiServer.Cms.UI.Admin/ScheduledJobs/GetHistory?id=643181cb-edf7-4f87-b9ea-9187201bc835&index=0&pageSize=50 - null null
+2024-09-20 10:49:56.477 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/EPiServer.Cms.UI.Admin/ScheduledJobs/get?id=643181cb-edf7-4f87-b9ea-9187201bc835 - null null
+2024-09-20 10:49:56.484 +05:30 [INF] Executing endpoint 'EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController.Get (EPiServer.Cms.UI.Admin)'
+2024-09-20 10:49:56.485 +05:30 [INF] Executing endpoint 'EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController.GetHistory (EPiServer.Cms.UI.Admin)'
+2024-09-20 10:49:56.488 +05:30 [INF] Route matched with {area = "EPiServer.Cms.UI.Admin", action = "Get", controller = "ScheduledJobs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Get(System.Guid) on controller EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController (EPiServer.Cms.UI.Admin).
+2024-09-20 10:49:56.493 +05:30 [INF] Route matched with {area = "EPiServer.Cms.UI.Admin", action = "GetHistory", controller = "ScheduledJobs"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHistory(System.Guid, Int32, Int32) on controller EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController (EPiServer.Cms.UI.Admin).
+2024-09-20 10:49:56.517 +05:30 [INF] Executed action EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController.Get (EPiServer.Cms.UI.Admin) in 26.6955ms
+2024-09-20 10:49:56.517 +05:30 [INF] Executed action EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController.GetHistory (EPiServer.Cms.UI.Admin) in 22.0993ms
+2024-09-20 10:49:56.521 +05:30 [INF] Executed endpoint 'EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController.Get (EPiServer.Cms.UI.Admin)'
+2024-09-20 10:49:56.523 +05:30 [INF] Executed endpoint 'EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController.GetHistory (EPiServer.Cms.UI.Admin)'
+2024-09-20 10:49:56.525 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/EPiServer.Cms.UI.Admin/ScheduledJobs/get?id=643181cb-edf7-4f87-b9ea-9187201bc835 - 200 null application/json 47.6902ms
+2024-09-20 10:49:56.526 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/EPiServer.Cms.UI.Admin/ScheduledJobs/GetHistory?id=643181cb-edf7-4f87-b9ea-9187201bc835&index=0&pageSize=50 - 200 null application/json 48.9784ms
+2024-09-20 10:49:57.977 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5000/EPiServer/EPiServer.Cms.UI.Admin/ScheduledJobs/start - application/json 45
+2024-09-20 10:49:57.981 +05:30 [INF] Executing endpoint 'EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController.Start (EPiServer.Cms.UI.Admin)'
+2024-09-20 10:49:57.985 +05:30 [INF] Route matched with {area = "EPiServer.Cms.UI.Admin", action = "Start", controller = "ScheduledJobs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Start(EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ViewModels.ScheduledJobModel) on controller EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController (EPiServer.Cms.UI.Admin).
+2024-09-20 10:49:57.996 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-09-20 10:49:57.999 +05:30 [INF] Executing job 'Products Import' with ID '643181cb-edf7-4f87-b9ea-9187201bc835, trigger: User
+2024-09-20 10:49:57.999 +05:30 [INF] Executed action EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController.Start (EPiServer.Cms.UI.Admin) in 12.6336ms
+2024-09-20 10:49:58.002 +05:30 [INF] Executed endpoint 'EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController.Start (EPiServer.Cms.UI.Admin)'
+2024-09-20 10:49:58.004 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5000/EPiServer/EPiServer.Cms.UI.Admin/ScheduledJobs/start - 200 0 null 26.5577ms
+2024-09-20 10:49:58.303 +05:30 [WRN] Product 1 imported with id 74
+2024-09-20 10:49:58.327 +05:30 [WRN] Product 2 imported with id 75
+2024-09-20 10:49:58.331 +05:30 [INF] Successfully executed the scheduled job 'Products Import' with jobId ='643181cb-edf7-4f87-b9ea-9187201bc835'
+2024-09-20 10:50:03.009 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/EPiServer.Cms.UI.Admin/ScheduledJobs/GetRunningStatus?id=643181cb-edf7-4f87-b9ea-9187201bc835 - null null
+2024-09-20 10:50:03.014 +05:30 [INF] Executing endpoint 'EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController.GetRunningStatus (EPiServer.Cms.UI.Admin)'
+2024-09-20 10:50:03.017 +05:30 [INF] Route matched with {area = "EPiServer.Cms.UI.Admin", action = "GetRunningStatus", controller = "ScheduledJobs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetRunningStatus(System.Guid) on controller EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController (EPiServer.Cms.UI.Admin).
+2024-09-20 10:50:03.022 +05:30 [INF] Executed action EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController.GetRunningStatus (EPiServer.Cms.UI.Admin) in 2.8345ms
+2024-09-20 10:50:03.023 +05:30 [INF] Executed endpoint 'EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController.GetRunningStatus (EPiServer.Cms.UI.Admin)'
+2024-09-20 10:50:03.024 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/EPiServer.Cms.UI.Admin/ScheduledJobs/GetRunningStatus?id=643181cb-edf7-4f87-b9ea-9187201bc835 - 200 null application/json 15.1834ms
+2024-09-20 10:50:03.030 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/EPiServer.Cms.UI.Admin/ScheduledJobs/GetHistory?id=643181cb-edf7-4f87-b9ea-9187201bc835&index=0&pageSize=50 - null null
+2024-09-20 10:50:03.032 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/EPiServer/EPiServer.Cms.UI.Admin/ScheduledJobs/get?id=643181cb-edf7-4f87-b9ea-9187201bc835 - null null
+2024-09-20 10:50:03.034 +05:30 [INF] Executing endpoint 'EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController.GetHistory (EPiServer.Cms.UI.Admin)'
+2024-09-20 10:50:03.037 +05:30 [INF] Route matched with {area = "EPiServer.Cms.UI.Admin", action = "GetHistory", controller = "ScheduledJobs"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHistory(System.Guid, Int32, Int32) on controller EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController (EPiServer.Cms.UI.Admin).
+2024-09-20 10:50:03.038 +05:30 [INF] Executing endpoint 'EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController.Get (EPiServer.Cms.UI.Admin)'
+2024-09-20 10:50:03.041 +05:30 [INF] Route matched with {area = "EPiServer.Cms.UI.Admin", action = "Get", controller = "ScheduledJobs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Get(System.Guid) on controller EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController (EPiServer.Cms.UI.Admin).
+2024-09-20 10:50:03.046 +05:30 [INF] Executed action EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController.GetHistory (EPiServer.Cms.UI.Admin) in 5.833ms
+2024-09-20 10:50:03.048 +05:30 [INF] Executed endpoint 'EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController.GetHistory (EPiServer.Cms.UI.Admin)'
+2024-09-20 10:50:03.050 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/EPiServer.Cms.UI.Admin/ScheduledJobs/GetHistory?id=643181cb-edf7-4f87-b9ea-9187201bc835&index=0&pageSize=50 - 200 null application/json 19.9065ms
+2024-09-20 10:50:03.052 +05:30 [INF] Executed action EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController.Get (EPiServer.Cms.UI.Admin) in 8.4099ms
+2024-09-20 10:50:03.054 +05:30 [INF] Executed endpoint 'EPiServer.Cms.UI.Admin.ScheduledJobs.Internal.ScheduledJobsController.Get (EPiServer.Cms.UI.Admin)'
+2024-09-20 10:50:03.057 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/EPiServer/EPiServer.Cms.UI.Admin/ScheduledJobs/get?id=643181cb-edf7-4f87-b9ea-9187201bc835 - 200 null application/json 24.6961ms

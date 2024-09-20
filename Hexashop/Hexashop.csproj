@@ -19,6 +19,10 @@
     <PackageReference Include="EPiServer.Labs.ContentManager" Version="1.2.0" />
     <PackageReference Include="EPiServer.Labs.GridView" Version="1.2.0" />
     <PackageReference Include="EPiServer.Labs.LanguageManager" Version="5.3.0" />
+    <PackageReference Include="Serilog" Version="4.0.1" />
+    <PackageReference Include="Serilog.AspNetCore" Version="8.0.2" />
+    <PackageReference Include="Serilog.Formatting.Compact" Version="3.0.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
     <PackageReference Include="Wangkanai.Detection" Version="8.14.0" />
   </ItemGroup>
   
