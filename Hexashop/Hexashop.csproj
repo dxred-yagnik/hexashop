@@ -42,5 +42,6 @@
   
   <ItemGroup>
     <None Include="Views\Preview\Index.cshtml" />
+    <None Include="wwwroot\Resources\script.js" />
   </ItemGroup>
 </Project>
