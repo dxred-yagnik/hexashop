@@ -1,7 +1,10 @@
 ﻿using EPiServer.Shell.ObjectEditing;
+using EPiServer.Web;
 using Hexashop.Business.Validation;
 using Hexashop.Models.Blocks;
+using Hexashop.Models.Media;
 using Hexashop.Models.Properties;
+using System.ComponentModel.DataAnnotations;
 
 namespace Hexashop.Models.Pages
 {
@@ -27,6 +30,17 @@ namespace Hexashop.Models.Pages
 
         [SelectMany(SelectionFactoryType = typeof(ProductCategorySelectionFactory))]
         public virtual string ProductCategories { get; set; }
+
+       
+        [AllowedTypes(typeof(ImageFile))]
+        public virtual ContentArea Sliders1 { get; set; }
+
+        [UIHint(UIHint.Image)]
+        public virtual IList<ContentReference> Sliders2
+        {
+            get;
+            set;
+        }
 
         [CheckBadValidator]
         public virtual string? Heading { get; set; }
