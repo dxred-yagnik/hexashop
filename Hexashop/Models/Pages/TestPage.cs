@@ -54,6 +54,8 @@ namespace Hexashop.Models.Pages
         [CheckBadValidator]
         public virtual string? Heading { get; set; }
 
+        public virtual IList<MenuItemBlock> Navigation { get; set; }
+        
         public override void SetDefaultValues(ContentType contentType)
         {
             base.SetDefaultValues(contentType);
