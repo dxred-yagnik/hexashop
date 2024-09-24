@@ -45,4 +45,11 @@
     <None Include="Views\Preview\Index.cshtml" />
     <None Include="wwwroot\Resources\script.js" />
   </ItemGroup>
+  
+  <ItemGroup>
+    <Content Update="Views\Shared\Blocks\ImageFile.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
 </Project>

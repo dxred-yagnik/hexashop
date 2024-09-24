@@ -32,11 +32,20 @@ namespace Hexashop.Models.Pages
         public virtual string ProductCategories { get; set; }
 
        
+        //not editor friendly, they can't see image thumbanail
         [AllowedTypes(typeof(ImageFile))]
         public virtual ContentArea Sliders1 { get; set; }
 
+        //editor friendly, they can see image thumbanail
         [UIHint(UIHint.Image)]
         public virtual IList<ContentReference> Sliders2
+        {
+            get;
+            set;
+        }
+
+        [UIHint(UIHint.Image)]
+        public virtual IList<Url> Sliders3
         {
             get;
             set;

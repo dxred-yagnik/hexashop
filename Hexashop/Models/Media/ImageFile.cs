@@ -13,5 +13,7 @@ namespace Hexashop.Models.Media
         /// The copyright.
         /// </value>
         public virtual string Copyright { get; set; }
+
+        public virtual string AltText { get; set; }
     }
 }

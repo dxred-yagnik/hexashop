@@ -1,3 +1,17 @@
 ﻿@model PageViewModel<TestPage>
 
 @Html.PropertyFor(m => m.CurrentPage.Sections)
+<h1>Slider 1</h1>
+@Html.PropertyFor(m => m.CurrentPage.Sliders1)
+
+<h1>Slider 2</h1>
+@foreach (var item in Model.CurrentPage.Sliders2)
+{
+    <img src="@Url.ContentUrl(item)" />
+}
+
+<h1>Slider 3</h1>
+@foreach (var item in Model.CurrentPage.Sliders3)
+{
+    <img src="@Url.ContentUrl(item)" />
+}
