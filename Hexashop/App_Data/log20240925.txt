@@ -1,0 +1,207 @@
+2024-09-25 16:12:23.882 +05:30 [INF] User profile is available. Using 'C:\Users\YagnikJadav\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-25 16:12:23.950 +05:30 [INF] Initialization started
+2024-09-25 16:12:29.897 +05:30 [INF] No event providers has been configured. Events will not be distributed to other servers.
+2024-09-25 16:12:30.271 +05:30 [INF] Adding module CMS
+2024-09-25 16:12:30.274 +05:30 [INF] Adding module Shell
+2024-09-25 16:12:30.276 +05:30 [INF] Adding module EPiServer.Forms.UI
+2024-09-25 16:12:30.277 +05:30 [INF] Adding module EPiServer.Labs.LanguageManager
+2024-09-25 16:12:30.279 +05:30 [INF] Adding module episerver-labs-grid-view
+2024-09-25 16:12:30.282 +05:30 [INF] Adding module EPiServer.Cms.UI.Settings
+2024-09-25 16:12:30.284 +05:30 [INF] Adding module episerver-labs-content-manager
+2024-09-25 16:12:30.286 +05:30 [INF] Adding module EPiServer.Cms.UI.VisitorGroups
+2024-09-25 16:12:30.287 +05:30 [INF] Adding module Find
+2024-09-25 16:12:30.289 +05:30 [INF] Adding module EPiServer.Cms.UI.Admin
+2024-09-25 16:12:30.290 +05:30 [INF] Adding module EPiServer.Cms.TinyMce
+2024-09-25 16:12:30.291 +05:30 [INF] Adding module EPiServer.Forms
+2024-09-25 16:12:30.292 +05:30 [INF] Adding module App
+2024-09-25 16:12:30.323 +05:30 [INF] Resolving Json serializer for Module 'EPiServer.Forms.UI' with setting 'ModuleJsonSerializerType=Resolve' and 'PreferredUiJsonSerializerType=Net'
+2024-09-25 16:12:30.347 +05:30 [INF] Resolved Newtonsoft serializer for Module 'EPiServer.Forms.UI' since it has custom Newtonsoft converters
+2024-09-25 16:12:30.352 +05:30 [INF] Resolving Json serializer for Module 'EPiServer.Labs.LanguageManager' with setting 'ModuleJsonSerializerType=Resolve' and 'PreferredUiJsonSerializerType=Resolve'
+2024-09-25 16:12:30.355 +05:30 [INF] Resolved System.Text.Json serializer for Module 'EPiServer.Labs.LanguageManager' according to global formatter
+2024-09-25 16:12:30.378 +05:30 [INF] Resolving Json serializer for Module 'episerver-labs-grid-view' with setting 'ModuleJsonSerializerType=Net' and 'PreferredUiJsonSerializerType=Net'
+2024-09-25 16:12:30.380 +05:30 [INF] Resolving Json serializer for Module 'EPiServer.Cms.UI.Settings' with setting 'ModuleJsonSerializerType=Net' and 'PreferredUiJsonSerializerType=Net'
+2024-09-25 16:12:30.382 +05:30 [INF] Resolving Json serializer for Module 'episerver-labs-content-manager' with setting 'ModuleJsonSerializerType=Net' and 'PreferredUiJsonSerializerType=Net'
+2024-09-25 16:12:30.383 +05:30 [INF] Resolving Json serializer for Module 'EPiServer.Cms.UI.VisitorGroups' with setting 'ModuleJsonSerializerType=Net' and 'PreferredUiJsonSerializerType=Net'
+2024-09-25 16:12:30.385 +05:30 [INF] Resolving Json serializer for Module 'Find' with setting 'ModuleJsonSerializerType=None' and 'PreferredUiJsonSerializerType=Net'
+2024-09-25 16:12:30.387 +05:30 [INF] Resolving Json serializer for Module 'EPiServer.Cms.UI.Admin' with setting 'ModuleJsonSerializerType=None' and 'PreferredUiJsonSerializerType=Net'
+2024-09-25 16:12:30.389 +05:30 [INF] Resolving Json serializer for Module 'EPiServer.Cms.TinyMce' with setting 'ModuleJsonSerializerType=Resolve' and 'PreferredUiJsonSerializerType=Resolve'
+2024-09-25 16:12:30.411 +05:30 [INF] Resolved System.Text.Json serializer for Module 'EPiServer.Cms.TinyMce' according to global formatter
+2024-09-25 16:12:30.413 +05:30 [INF] Resolving Json serializer for Module 'EPiServer.Forms' with setting 'ModuleJsonSerializerType=Resolve' and 'PreferredUiJsonSerializerType=Resolve'
+2024-09-25 16:12:30.415 +05:30 [INF] Resolved System.Text.Json serializer for Module 'EPiServer.Forms' according to global formatter
+2024-09-25 16:12:30.416 +05:30 [INF] Resolving Json serializer for Module 'App' with setting 'ModuleJsonSerializerType=Resolve' and 'PreferredUiJsonSerializerType=Resolve'
+2024-09-25 16:12:30.437 +05:30 [INF] Resolved System.Text.Json serializer for Module 'App' according to global formatter
+2024-09-25 16:12:30.440 +05:30 [INF] Resolved System.Text.Json as serializer for CMS UI
+2024-09-25 16:12:30.679 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.697 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.704 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.730 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.909 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.912 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.912 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.910 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.909 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.920 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.920 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.921 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.922 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.926 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.910 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.928 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.929 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.933 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.940 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.941 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.942 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.940 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.940 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.942 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.910 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.951 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.952 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.952 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.955 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.953 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.953 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.961 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.953 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.952 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.909 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.971 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.973 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.975 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.977 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.910 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.982 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.984 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.986 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:30.988 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:12:31.095 +05:30 [INF] Initialize EPiServer Forms.UI
+2024-09-25 16:12:31.408 +05:30 [INF] Initialize EPiServer Forms: SetupRootFolderForForm
+2024-09-25 16:12:31.506 +05:30 [INF] Initialize EPiServer Forms: configured RootFolder for Block = 58
+2024-09-25 16:12:31.556 +05:30 [INF] SetupRootFolderForForm: now Forms work with RootFolder for Block = 58
+2024-09-25 16:12:31.600 +05:30 [INF] Found 1 types, which implement (IsAssignableFrom) EPiServer.Forms.Core.Feed.Internal.IFeedProvider
+2024-09-25 16:12:31.604 +05:30 [INF] Add to cache: EPiServer.Forms.Core.Feed.Internal.IFeedProvider, has 1 instance(s)
+2024-09-25 16:12:31.609 +05:30 [INF] Initialize EPiServer Forms: use custom FormViewEngines
+2024-09-25 16:12:31.878 +05:30 [INF] Initialization completed
+2024-09-25 16:12:32.453 +05:30 [INF] Now listening on: https://localhost:5000
+2024-09-25 16:12:32.496 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-25 16:12:32.500 +05:30 [INF] Hosting environment: Development
+2024-09-25 16:12:32.503 +05:30 [INF] Content root path: D:\Dxred\Dxred\Episerver\Training\Alchemy IBM X\IBM\code\hexashop\Hexashop
+2024-09-25 16:12:33.266 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/ - null null
+2024-09-25 16:12:33.443 +05:30 [INF] First request initialization started for request 'https://localhost:5000/'
+2024-09-25 16:12:33.484 +05:30 [INF] First request initialization completed for request 'https://localhost:5000/'
+2024-09-25 16:12:34.268 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'ApplicationDbContext<ApplicationUser>' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2024-09-25 16:12:34.481 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AccessFailedCount], [a].[Comment], [a].[ConcurrencyStamp], [a].[CreationDate], [a].[Email], [a].[EmailConfirmed], [a].[IsApproved], [a].[IsLockedOut], [a].[LastLockoutDate], [a].[LastLoginDate], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+ORDER BY [a].[UserName]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-09-25 16:12:34.553 +05:30 [INF] The admin user registration is disabled, no redirect to '/Util/Register' will happen.
+2024-09-25 16:12:34.818 +05:30 [INF] Executing endpoint 'Hexashop.Controllers.StartPageController.Index (Hexashop)'
+2024-09-25 16:12:34.839 +05:30 [INF] Route matched with {action = "Index", controller = "StartPage", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Hexashop.Models.Pages.StartPage) on controller Hexashop.Controllers.StartPageController (Hexashop).
+2024-09-25 16:13:19.350 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-25 16:13:19.903 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:13:19.905 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:13:19.922 +05:30 [INF] Rendering form in View mode
+2024-09-25 16:13:19.923 +05:30 [INF] Register built-in Css Resources for this form
+2024-09-25 16:13:19.925 +05:30 [INF] Register JavaScript Resources for this form
+2024-09-25 16:13:20.001 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:13:20.093 +05:30 [INF] Init the property with objectSerializer.Json
+2024-09-25 16:13:20.169 +05:30 [INF] Found 1 types, which implement (IsAssignableFrom) EPiServer.Forms.Core.Internal.VisitorIdentify.IVisitorIdentifyProvider
+2024-09-25 16:13:20.173 +05:30 [INF] Add to cache: EPiServer.Forms.Core.Internal.VisitorIdentify.IVisitorIdentifyProvider, has 1 instance(s)
+2024-09-25 16:13:20.496 +05:30 [INF] Executed ViewResult - view Index executed in 1143.4665ms.
+2024-09-25 16:13:20.507 +05:30 [INF] Executed action Hexashop.Controllers.StartPageController.Index (Hexashop) in 45664.276ms
+2024-09-25 16:13:20.510 +05:30 [INF] Executed endpoint 'Hexashop.Controllers.StartPageController.Index (Hexashop)'
+2024-09-25 16:13:20.526 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/ - 200 null text/html; charset=utf-8 47267.655ms
+2024-09-25 16:13:20.535 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/assets/css/templatemo-hexashop.css - null null
+2024-09-25 16:13:20.536 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/assets/css/owl-carousel.css - null null
+2024-09-25 16:13:20.535 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/assets/css/font-awesome.css - null null
+2024-09-25 16:13:20.537 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/assets/css/bootstrap.min.css - null null
+2024-09-25 16:13:20.559 +05:30 [INF] Sending file. Request path: '/assets/css/bootstrap.min.css'. Physical path: 'D:\Dxred\Dxred\Episerver\Training\Alchemy IBM X\IBM\code\hexashop\Hexashop\wwwroot\assets\css\bootstrap.min.css'
+2024-09-25 16:13:20.559 +05:30 [INF] Sending file. Request path: '/assets/css/owl-carousel.css'. Physical path: 'D:\Dxred\Dxred\Episerver\Training\Alchemy IBM X\IBM\code\hexashop\Hexashop\wwwroot\assets\css\owl-carousel.css'
+2024-09-25 16:13:20.559 +05:30 [INF] Sending file. Request path: '/assets/css/font-awesome.css'. Physical path: 'D:\Dxred\Dxred\Episerver\Training\Alchemy IBM X\IBM\code\hexashop\Hexashop\wwwroot\assets\css\font-awesome.css'
+2024-09-25 16:13:20.607 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/assets/css/owl-carousel.css - 499 4744 text/css 50.2892ms
+2024-09-25 16:13:20.607 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/assets/css/font-awesome.css - 499 37415 text/css 72.4441ms
+2024-09-25 16:13:20.612 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/siteassets/logo.png - null null
+2024-09-25 16:13:20.615 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/siteassets/kid-02.jpg - null null
+2024-09-25 16:13:20.616 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/siteassets/kid-03.jpg - null null
+2024-09-25 16:13:20.607 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/assets/css/bootstrap.min.css - 499 160302 text/css 51.0627ms
+2024-09-25 16:13:20.656 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/assets/images/instagram-05.jpg - null null
+2024-09-25 16:13:20.656 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-25 16:13:20.657 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/assets/images/instagram-06.jpg - null null
+2024-09-25 16:13:20.658 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/assets/images/white-logo.png - null null
+2024-09-25 16:13:20.666 +05:30 [INF] Sending file. Request path: '/assets/images/instagram-05.jpg'. Physical path: 'D:\Dxred\Dxred\Episerver\Training\Alchemy IBM X\IBM\code\hexashop\Hexashop\wwwroot\assets\images\instagram-05.jpg'
+2024-09-25 16:13:20.668 +05:30 [INF] Sending file. Request path: '/assets/images/white-logo.png'. Physical path: 'D:\Dxred\Dxred\Episerver\Training\Alchemy IBM X\IBM\code\hexashop\Hexashop\wwwroot\assets\images\white-logo.png'
+2024-09-25 16:13:20.668 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/assets/images/instagram-05.jpg - 499 39869 image/jpeg 11.8607ms
+2024-09-25 16:13:20.668 +05:30 [INF] Sending file. Request path: '/assets/images/instagram-06.jpg'. Physical path: 'D:\Dxred\Dxred\Episerver\Training\Alchemy IBM X\IBM\code\hexashop\Hexashop\wwwroot\assets\images\instagram-06.jpg'
+2024-09-25 16:13:20.674 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/_vs/browserLink - null null
+2024-09-25 16:13:20.676 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/assets/images/instagram-06.jpg - 499 26385 image/jpeg 20.0265ms
+2024-09-25 16:13:20.671 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/assets/images/white-logo.png - 499 3450 image/png 11.5071ms
+2024-09-25 16:13:20.686 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 30.4099ms
+2024-09-25 16:13:20.691 +05:30 [INF] Sending file. Request path: '/assets/css/templatemo-hexashop.css'. Physical path: 'D:\Dxred\Dxred\Episerver\Training\Alchemy IBM X\IBM\code\hexashop\Hexashop\wwwroot\assets\css\templatemo-hexashop.css'
+2024-09-25 16:13:20.693 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/assets/css/templatemo-hexashop.css - 200 42237 text/css 157.8695ms
+2024-09-25 16:13:20.730 +05:30 [INF] Executing endpoint 'DefaultMediaEndpoint'
+2024-09-25 16:13:20.730 +05:30 [INF] Executing endpoint 'DefaultMediaEndpoint'
+2024-09-25 16:13:20.730 +05:30 [INF] Executing endpoint 'DefaultMediaEndpoint'
+2024-09-25 16:13:20.742 +05:30 [INF] The file /siteassets/kid-03.jpg was not modified
+2024-09-25 16:13:20.742 +05:30 [INF] The file /siteassets/kid-02.jpg was not modified
+2024-09-25 16:13:20.742 +05:30 [INF] The file /siteassets/logo.png was not modified
+2024-09-25 16:13:20.750 +05:30 [INF] Executed endpoint 'DefaultMediaEndpoint'
+2024-09-25 16:13:20.750 +05:30 [INF] Executed endpoint 'DefaultMediaEndpoint'
+2024-09-25 16:13:20.751 +05:30 [INF] Executed endpoint 'DefaultMediaEndpoint'
+2024-09-25 16:13:20.755 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/siteassets/kid-03.jpg - 304 null image/jpeg 140.5914ms
+2024-09-25 16:13:20.756 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/siteassets/kid-02.jpg - 304 null image/jpeg 142.8289ms
+2024-09-25 16:13:20.757 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/siteassets/logo.png - 304 null image/png 145.2291ms
+2024-09-25 16:13:20.775 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/_vs/browserLink - 200 null text/javascript; charset=UTF-8 101.113ms
+2024-09-25 16:13:20.998 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/assets/fonts/fontawesome-webfont.woff2?v=4.7.0 - null null
+2024-09-25 16:13:21.003 +05:30 [INF] Sending file. Request path: '/assets/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\Dxred\Dxred\Episerver\Training\Alchemy IBM X\IBM\code\hexashop\Hexashop\wwwroot\assets\fonts\fontawesome-webfont.woff2'
+2024-09-25 16:13:21.006 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/assets/fonts/fontawesome-webfont.woff2?v=4.7.0 - 499 56780 font/woff2 7.753ms
+2024-09-25 16:13:26.398 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/sv/ - null null
+2024-09-25 16:13:26.422 +05:30 [INF] Executing endpoint 'Hexashop.Controllers.StartPageController.Index (Hexashop)'
+2024-09-25 16:13:26.426 +05:30 [INF] Route matched with {action = "Index", controller = "StartPage", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Hexashop.Models.Pages.StartPage) on controller Hexashop.Controllers.StartPageController (Hexashop).
+2024-09-25 16:13:27.770 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-25 16:13:27.799 +05:30 [INF] Executed ViewResult - view Index executed in 28.42ms.
+2024-09-25 16:13:27.803 +05:30 [INF] Executed action Hexashop.Controllers.StartPageController.Index (Hexashop) in 1373.9482ms
+2024-09-25 16:13:27.805 +05:30 [INF] Executed endpoint 'Hexashop.Controllers.StartPageController.Index (Hexashop)'
+2024-09-25 16:13:27.807 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/sv/ - 200 null text/html; charset=utf-8 1409.1374ms
+2024-09-25 16:13:27.823 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/_vs/browserLink - null null
+2024-09-25 16:13:27.823 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-25 16:13:27.828 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 4.2276ms
+2024-09-25 16:13:27.842 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.4467ms
+2024-09-25 16:13:28.006 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/favicon.ico - null null
+2024-09-25 16:13:28.031 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/favicon.ico - 499 null null 24.6774ms
+2024-09-25 16:13:28.034 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5000/favicon.ico, Response status code: 499
+2024-09-25 16:13:32.879 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/sv/about-us/ - null null
+2024-09-25 16:13:32.887 +05:30 [INF] Executing endpoint 'Hexashop.Controllers.DefaultPageController.Index (Hexashop)'
+2024-09-25 16:13:32.890 +05:30 [INF] Route matched with {action = "Index", controller = "DefaultPage", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index(Hexashop.Models.Pages.SitePageData) on controller Hexashop.Controllers.DefaultPageController (Hexashop).
+2024-09-25 16:13:35.420 +05:30 [INF] Executing ViewResult, running view ~/Views/StandardPage/Index.cshtml.
+2024-09-25 16:13:35.520 +05:30 [INF] Executed ViewResult - view ~/Views/StandardPage/Index.cshtml executed in 101.5723ms.
+2024-09-25 16:13:35.524 +05:30 [INF] Executed action Hexashop.Controllers.DefaultPageController.Index (Hexashop) in 2632.4091ms
+2024-09-25 16:13:35.527 +05:30 [INF] Executed endpoint 'Hexashop.Controllers.DefaultPageController.Index (Hexashop)'
+2024-09-25 16:13:35.529 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/sv/about-us/ - 200 null text/html; charset=utf-8 2649.9828ms
+2024-09-25 16:13:35.547 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/_vs/browserLink - null null
+2024-09-25 16:13:35.547 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-25 16:13:35.548 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/siteassets/about-left-image.jpg - null null
+2024-09-25 16:13:35.554 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 6.5363ms
+2024-09-25 16:13:35.561 +05:30 [INF] Executing endpoint 'DefaultMediaEndpoint'
+2024-09-25 16:13:35.566 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.256ms
+2024-09-25 16:13:35.576 +05:30 [INF] Sending file. Request path: '/siteassets/about-left-image.jpg'. Physical path: 'D:\Dxred\Dxred\Episerver\Training\Alchemy IBM X\IBM\code\hexashop\Hexashop\App_Data\blobs\154d60ad97d049eca74fd5135bc5a34e\647a54b7a9d34d16862a6c6cf648c67c.jpg'
+2024-09-25 16:13:35.578 +05:30 [INF] Executed endpoint 'DefaultMediaEndpoint'
+2024-09-25 16:13:35.580 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/siteassets/about-left-image.jpg - 200 163548 image/jpeg 32.3034ms
+2024-09-25 16:13:35.695 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/siteassets/products-page-heading.jpg - null null
+2024-09-25 16:13:35.701 +05:30 [INF] Executing endpoint 'DefaultMediaEndpoint'
+2024-09-25 16:13:35.719 +05:30 [INF] Sending file. Request path: '/siteassets/products-page-heading.jpg'. Physical path: 'D:\Dxred\Dxred\Episerver\Training\Alchemy IBM X\IBM\code\hexashop\Hexashop\App_Data\blobs\c499aec5e8f3416fac907a68db61c3c4\665e6b284ca84142a8a004380b25c101.jpg'
+2024-09-25 16:13:35.721 +05:30 [INF] Executed endpoint 'DefaultMediaEndpoint'
+2024-09-25 16:13:35.724 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/siteassets/products-page-heading.jpg - 200 294780 image/jpeg 29.2911ms
+2024-09-25 16:13:39.835 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/sv/about-us/ - null null
+2024-09-25 16:13:39.839 +05:30 [INF] Executing endpoint 'Hexashop.Controllers.DefaultPageController.Index (Hexashop)'
+2024-09-25 16:13:39.840 +05:30 [INF] Route matched with {action = "Index", controller = "DefaultPage", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index(Hexashop.Models.Pages.SitePageData) on controller Hexashop.Controllers.DefaultPageController (Hexashop).
+2024-09-25 16:14:03.782 +05:30 [INF] Executing ViewResult, running view ~/Views/StandardPage/Index.cshtml.
+2024-09-25 16:14:03.792 +05:30 [INF] Executed ViewResult - view ~/Views/StandardPage/Index.cshtml executed in 9.8519ms.
+2024-09-25 16:14:03.795 +05:30 [INF] Executed action Hexashop.Controllers.DefaultPageController.Index (Hexashop) in 23952.8473ms
+2024-09-25 16:14:03.796 +05:30 [INF] Executed endpoint 'Hexashop.Controllers.DefaultPageController.Index (Hexashop)'
+2024-09-25 16:14:03.799 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/sv/about-us/ - 200 null text/html; charset=utf-8 23964.1555ms
+2024-09-25 16:14:03.822 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-25 16:14:03.822 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5000/_vs/browserLink - null null
+2024-09-25 16:14:03.826 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 4.4829ms
+2024-09-25 16:14:03.839 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5000/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.4381ms

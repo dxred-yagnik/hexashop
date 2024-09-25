@@ -9,5 +9,7 @@ namespace Hexashop.Models.ViewModels
 
         //public IList<SitePageData> MenuItems { get; set;}
         public LinkItemCollection MenuItems { get; set; }
+
+        public IDictionary<string,string> Languages { get; set; }
     }
 }
