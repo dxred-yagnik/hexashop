@@ -31,7 +31,11 @@ namespace Hexashop.Models.Pages
         [SelectMany(SelectionFactoryType = typeof(ProductCategorySelectionFactory))]
         public virtual string ProductCategories { get; set; }
 
-       
+        
+        [UIHint("city")]
+        public virtual string SelectCategories { get; set; }
+
+
         //not editor friendly, they can't see image thumbanail
         [AllowedTypes(typeof(ImageFile))]
         public virtual ContentArea Sliders1 { get; set; }
